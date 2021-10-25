@@ -1,0 +1,204 @@
+{
+  "uid" : "30ecab35c3ecc6bf",
+  "name" : "test_ParameterlessAdjustment[Data36]",
+  "fullName" : "test_case.test_all.Test_all#test_ParameterlessAdjustment",
+  "historyId" : "7d2317dee2290dfdd55b5d776d593e35",
+  "time" : {
+    "start" : 1634563622531,
+    "stop" : 1634563622571,
+    "duration" : 40
+  },
+  "description" : "<font color='red'>当前执行时间: </font> 2021-10-18 21:27:02<Br/><font  color='red'>用例编号: </font> Parameterless-adjustment-10004<Br/><font color='red'>模块: </font>99-基础数据<Br/><font color='red'>接口名称: </font>01-获取年份<Br/><font color='red'>优先级: </font><Br/><font color='red'>标题: </font>获取年份<Br/><font color='red'>URL: </font>http://qa.shandong.giiatop.com/manageapi/membertraining/GetYear<Br/><font color='red'>前置条件: </font><Br/><font color='red'>请求方式: </font>post<Br/><font color='red'>请求头: </font>{'Cookie': 'qa.shandong.cipcms.token=CfDJ8IDGrxdAMFBOqMEReEeDUJgsaTuV7ES6mWDYgwCtah7LqRyT8AghnISX2ka9CViLjx7qDbSHw0mII_8-TyKeatoFQvQcK83o4DZJ1-SXm-1yLYPlyMZKMvFzqcXqPmf1W3KIovpMSkcI2Vt09Ob5ZulQShIfntr2BkAxBc0F5TOYZ5u5D8v1b3Dk_WnsFWZ8RwZcdjHgbeSTWpXvoq1xfh9hIMZiEVOhgBEuN_SFWHaARvV6y33q8pRNO8CSb6NxXiBNPVhssdnk1n_vWahAgNtxWSm9hW3VPvv-fRKr06C0Xfn4AHHPe6N1tm3m6E4YrrMwwpTy-K6tYfKfjWjsbWMuUr-SFIyV7-O6NxeQ0aDT6XVIHJNdtewVj4dDlimpJrQEWhJMTDpJYg09UflpdGpu2vrKF3uDzgj1SkNaXKmmoI4KKO0ybPQ8d0L_HnMOe6o_oTmziYqgw_zGxHXbBIaleOgEIHQfknfoCq65zFjb1eIhmoLO-8Wg0nrlqJALLOEc99DzK6w0riTzeOCY9tj4WJtTeiQWkOj_-rQKt_T7LjmSSbJa5bMaI6foEG-4nfIi6FfclGXSxquwrQEyOBd4b7Zew1Qh1GGSaDtJmRGdEnzlfFFcFnutEchynmjCUinIZy7ZehhnupssS5e8ydA'}<Br/><font color='red'>请求参数: </font>{}<Br/><font color='red'>预期结果的状态: </font>ture<Br/><font color='red'>表格-响应预期结果: </font>{'code': 0, 'msg': '请求成功'}<Br/><font color='red'>接口请求-实际结果: </font>{'code': 0, 'data': [2022], 'msg': '请求成功'}<Br/><font color='red'>备注信息: </font><Br/>",
+  "descriptionHtml" : "<p><font color='red'>当前执行时间: </font> 2021-10-18 21:27:02<Br/><font  color='red'>用例编号: </font> Parameterless-adjustment-10004<Br/><font color='red'>模块: </font>99-基础数据<Br/><font color='red'>接口名称: </font>01-获取年份<Br/><font color='red'>优先级: </font><Br/><font color='red'>标题: </font>获取年份<Br/><font color='red'>URL: </font>http://qa.shandong.giiatop.com/manageapi/membertraining/GetYear<Br/><font color='red'>前置条件: </font><Br/><font color='red'>请求方式: </font>post<Br/><font color='red'>请求头: </font>{'Cookie': 'qa.shandong.cipcms.token=CfDJ8IDGrxdAMFBOqMEReEeDUJgsaTuV7ES6mWDYgwCtah7LqRyT8AghnISX2ka9CViLjx7qDbSHw0mII_8-TyKeatoFQvQcK83o4DZJ1-SXm-1yLYPlyMZKMvFzqcXqPmf1W3KIovpMSkcI2Vt09Ob5ZulQShIfntr2BkAxBc0F5TOYZ5u5D8v1b3Dk_WnsFWZ8RwZcdjHgbeSTWpXvoq1xfh9hIMZiEVOhgBEuN_SFWHaARvV6y33q8pRNO8CSb6NxXiBNPVhssdnk1n_vWahAgNtxWSm9hW3VPvv-fRKr06C0Xfn4AHHPe6N1tm3m6E4YrrMwwpTy-K6tYfKfjWjsbWMuUr-SFIyV7-O6NxeQ0aDT6XVIHJNdtewVj4dDlimpJrQEWhJMTDpJYg09UflpdGpu2vrKF3uDzgj1SkNaXKmmoI4KKO0ybPQ8d0L_HnMOe6o_oTmziYqgw_zGxHXbBIaleOgEIHQfknfoCq65zFjb1eIhmoLO-8Wg0nrlqJALLOEc99DzK6w0riTzeOCY9tj4WJtTeiQWkOj_-rQKt_T7LjmSSbJa5bMaI6foEG-4nfIi6FfclGXSxquwrQEyOBd4b7Zew1Qh1GGSaDtJmRGdEnzlfFFcFnutEchynmjCUinIZy7ZehhnupssS5e8ydA'}<Br/><font color='red'>请求参数: </font>{}<Br/><font color='red'>预期结果的状态: </font>ture<Br/><font color='red'>表格-响应预期结果: </font>{'code': 0, 'msg': '请求成功'}<Br/><font color='red'>接口请求-实际结果: </font>{'code': 0, 'data': [2022], 'msg': '请求成功'}<Br/><font color='red'>备注信息: </font><Br/></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "company",
+    "time" : {
+      "start" : 1634563615761,
+      "stop" : 1634563616017,
+      "duration" : 256
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "training_program_name",
+    "time" : {
+      "start" : 1634563616174,
+      "stop" : 1634563616233,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "training_program_id",
+    "time" : {
+      "start" : 1634563616067,
+      "stop" : 1634563616174,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "empty_report_file",
+    "time" : {
+      "start" : 1634563615611,
+      "stop" : 1634563615676,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "role",
+    "time" : {
+      "start" : 1634563616233,
+      "stop" : 1634563616308,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1634563615676,
+      "stop" : 1634563615760,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "delete_account_id",
+    "time" : {
+      "start" : 1634563616409,
+      "stop" : 1634563616479,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "account_name",
+    "time" : {
+      "start" : 1634563616308,
+      "stop" : 1634563616409,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "year",
+    "time" : {
+      "start" : 1634563616017,
+      "stop" : 1634563616067,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "99-基础数据"
+  }, {
+    "name" : "story",
+    "value" : "01-获取年份-\n-获取年份"
+  }, {
+    "name" : "epic",
+    "value" : "山东分类系统"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_all"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_all"
+  }, {
+    "name" : "host",
+    "value" : "SZPC065"
+  }, {
+    "name" : "thread",
+    "value" : "15676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Data",
+    "value" : "{'case_id': 'Parameterless-adjustment-10004', 'case_model': '99-基础数据', 'case_name': '01-获取年份', 'priority': '', 'title': '获取年份', 'url': '/manageapi/membertraining/GetYear', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{}', 'expect_result': 'ture', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30ecab35c3ecc6bf.json",
+  "parameterValues" : [ "{'case_id': 'Parameterless-adjustment-10004', 'case_model': '99-基础数据', 'case_name': '01-获取年份', 'priority': '', 'title': '获取年份', 'url': '/manageapi/membertraining/GetYear', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{}', 'expect_result': 'ture', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+}

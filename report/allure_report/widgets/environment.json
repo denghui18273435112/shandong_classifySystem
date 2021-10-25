@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "773" ],
+  "name" : "Browser.version"
+}, {
+  "values" : [ "http://qa.shandong.giiatop.com" ],
+  "name" : "Apiur1"
+}, {
+  "values" : [ "songqin_teach4" ],
+  "name" : "stand"
+}, {
+  "values" : [ "3.6" ],
+  "name" : "python.version"
+}, {
+  "values" : [ "Firefox2" ],
+  "name" : "Browser"
+} ]
