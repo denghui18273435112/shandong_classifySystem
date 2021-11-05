@@ -4,6 +4,8 @@ from lib.all import *
 from lib.login import login
 from tools.ExcelData import ExcelData
 from configs.login_token import login_token
+from tools.verification_code import verification_code
+
 
 @pytest.fixture(scope="session",autouse=True)
 def empty_report_file():
@@ -26,8 +28,24 @@ def token():
     省公司登陆
     :return:
     """
-    return  login.login(ExcelData("login-001")[0],conftest=False)
+    #return  login.login(ExcelData("login-001")[0],conftest=False)
     #return  login_token
+    token = ""
+    while True:
+        res=requests.get("{}/base/home/VerificationCode?".format(url))
+        if res.status_code==200:
+            imgname  = file_data+os.sep+'code.jpg'
+            with open(imgname,"wb") as fd:
+                fd.write(res.content)
+        vcode = res.cookies["vcode"]
+        headers= {"cookie":"{0}={1}".format(vcode_name,vcode)}
+        data = json.loads(ExcelData("login-001")[0]["params"])
+        data["vcode"] = verification_code("code.jpg")
+        body = requests.post(url="{}/base/home/Login".format(url),json=data,headers=headers)
+        token = "{0}={1};{2}={3}".format(cookie_name,body.cookies["sd-siccms-token"],vcode_name,vcode)
+        if body.json()["msg"]=="登录成功":
+            break
+    return token
 
 @pytest.fixture(scope="session")
 def token_city():

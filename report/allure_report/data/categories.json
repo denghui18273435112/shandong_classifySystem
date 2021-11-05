@@ -6,125 +6,17 @@
     "children" : [ {
       "name" : "AssertionError: 此用例校验失败.....;实际和预期结果未存在包含",
       "children" : [ {
-        "name" : "test_ParameterlessAdjustment[Data19]",
-        "uid" : "249b2d068c533022",
+        "name" : "test_ParameterlessAdjustment[Data0]",
+        "uid" : "6e727453e5b4faf6",
         "parentUid" : "c36ca1ae20e9f9109f17300072670597",
         "status" : "failed",
         "time" : {
-          "start" : 1634563621655,
-          "stop" : 1634563621743,
-          "duration" : 88
+          "start" : 1636106594427,
+          "stop" : 1636106594677,
+          "duration" : 250
         },
         "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-11111-001', 'case_model': '03-培训记录导入', 'case_name': '01-导入数据', 'priority': '中', 'title': '正常参数', 'url': '/manageapi/membertraining/ImportMemberTraining', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{ \"class_name\":\"审核数据\",\"class_date_begin\":\"2021-01-01 06:06:06\",\"class_date_end\":\"2021-12-12 06:06:06\",\"class_teacher\":\"邓辉\",\"class_site\":\"深圳南山\",\"class_course_name\":\"测试课程\",\"textbook\":\"\",\"signin_sheet\":\"\",\"test_paper\":\"\",\"site_photos\":\"\",\"transcrip\":\"\",\"frames\":\"[]\"}', 'expect_result': 'ture', 'response_expect_result': '{\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data24]",
-        "uid" : "803b6d23453ece45",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563621992,
-          "stop" : 1634563622025,
-          "duration" : 33
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_list-083', 'case_model': '88-账号管理', 'case_name': '03-用户名查询', 'priority': '中', 'title': '列表账号管理数据', 'url': '/base/adminuser/List', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n\"Status\":\"\",\\n\"association\":\"\",\\n\"by\": 1,\\n\"companyId\":\"\",\\n\"kw\":\"SDSXH-001\",\\n\"onLine\":\"\",\\n\"order\":\"created_time\",\\n\"pageNum\":1,\\n\"pageSize\":10,\\n\"type\":\"I\"\\n }', 'expect_result': 'ture', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data25]",
-        "uid" : "952bbe48afd903d5",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563622035,
-          "stop" : 1634563622083,
-          "duration" : 48
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_add-001', 'case_model': '88-账号管理', 'case_name': '04-添加账号', 'priority': '中', 'title': '用户名称为空', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n\"companyId\": \"\",\\n\"email\": \"\",\\n\"name\": \"\",\\n\"nickName\": \"test00123\",\\n\"phone\": \"\",\\n\"pwd\": \"\",\\n\"roles\": [],\\n\"sex\": 0,\\n\"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\"msg\":\"用户名称不能为空\"}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data26]",
-        "uid" : "239bdb72a577919f",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563622092,
-          "stop" : 1634563622117,
-          "duration" : 25
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_add-002', 'case_model': '88-账号管理', 'case_name': '05-添加账号', 'priority': '中', 'title': '用户昵称为空', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n\"companyId\": \"\",\\n\"email\": \"\",\\n\"name\": \"test00123\",\\n\"nickName\": \"\",\\n\"phone\": \"\",\\n\"pwd\": \"\",\\n\"roles\": [],\\n\"sex\": 0,\\n\"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\"msg\":\"用户昵称不能为空\"}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data27]",
-        "uid" : "32a4b4dbfffa5cdb",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563622126,
-          "stop" : 1634563622154,
-          "duration" : 28
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_add-003', 'case_model': '88-账号管理', 'case_name': '06-添加账号', 'priority': '中', 'title': '公司id异常', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n\"companyId\": \"\",\\n\"email\": \"\",\\n\"name\": \"test00123\",\\n\"nickName\": \"test00123\",\\n\"phone\": \"\",\\n\"pwd\": \"\",\\n\"roles\": [],\\n\"sex\": 0,\\n\"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\"code\": 1, \"msg\": \"非法越权操作\"}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data28]",
-        "uid" : "bf59728619c629c9",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563622164,
-          "stop" : 1634563622213,
-          "duration" : 49
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_add-004', 'case_model': '88-账号管理', 'case_name': '07-添加账号', 'priority': '中', 'title': '角色异常', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n\"companyId\": \"\",\\n\"email\": \"\",\\n\"name\": \"test00123\",\\n\"nickName\": \"test00123\",\\n\"phone\": \"\",\\n\"pwd\": \"\",\\n\"roles\": [],\\n\"sex\": 0,\\n\"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\"msg\":\"失败\"}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data29]",
-        "uid" : "1bd03d19bf590190",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563622222,
-          "stop" : 1634563622251,
-          "duration" : 29
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_add-005', 'case_model': '88-账号管理', 'case_name': '08-添加账号', 'priority': '中', 'title': '密码加密异常', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n\"companyId\": \"\",\\n\"email\": \"\",\\n\"name\": \"test00123\",\\n\"nickName\": \"test00123\",\\n\"phone\": \"\",\\n\"pwd\": \"\",\\n\"roles\": [],\\n\"sex\": 0,\\n\"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\"code\": 1}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data30]",
-        "uid" : "93ed7c756d0c262a",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563622261,
-          "stop" : 1634563622285,
-          "duration" : 24
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_add-006', 'case_model': '88-账号管理', 'case_name': '09-添加账号', 'priority': '中', 'title': '成功添加账号', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n\"companyId\": \"\",\\n\"email\": \"\",\\n\"name\": \"test001234\",\\n\"nickName\": \"test001235\",\\n\"phone\": \"\",\\n\"pwd\": \"\",\\n\"roles\": [],\\n\"sex\": 0,\\n\"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\"code\": 0, \"msg\": \"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data31]",
-        "uid" : "6767a10ed99a01b4",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563622296,
-          "stop" : 1634563622320,
-          "duration" : 24
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_add-007', 'case_model': '88-账号管理', 'case_name': '11-添加账号', 'priority': '中', 'title': '重复名称添加', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n\"companyId\": \"\",\\n\"email\": \"\",\\n\"name\": \"test00123\",\\n\"nickName\": \"test00123\",\\n\"phone\": \"\",\\n\"pwd\": \"\",\\n\"roles\": [],\\n\"sex\": 0,\\n\"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\"code\": 1, \"msg\": \"用户已经存在\"}', 'actual_result': '', 'remark': ''}" ]
-      }, {
-        "name" : "test_ParameterlessAdjustment[Data32]",
-        "uid" : "836514addf480d5e",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1634563622330,
-          "stop" : 1634563622360,
-          "duration" : 30
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'Parameterless-adjustment-account_delete-001', 'case_model': '88-账号管理', 'case_name': '12-删除账号', 'priority': '中', 'title': '多个账号删除', 'url': '/base/adminuser/Delete', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\"ids\":[]}', 'expect_result': 'ture', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+        "parameters" : [ "{'case_id': 'qingqiu', 'case_model': 'qingqiu', 'case_name': 'qingqiu', 'priority': '中', 'title': '正确的参数', 'url': '/manageapi/membercompany/List', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\"pageNum\":1,\"pageSize\":20,\"total\":0,\"export\":false,\"by\":1,\"order\":\"entry_date\",\"kw\":\"邓辉\",\"auth_type\":\"S\",\"id_number\":\"370829198005030329\",\"id_number_array\":[]}', 'expect_result': 'ture', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
       } ],
       "uid" : "c36ca1ae20e9f9109f17300072670597"
     } ],

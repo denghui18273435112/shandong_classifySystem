@@ -1,8 +1,8 @@
 import cv2 as cv
 import pytesseract
 from PIL import Image
-from configs.conf_path import data_path
 import os
+from configs.conf_path import *
 #
 # def verification_code():
 #     src = cv.imread(_file_path+os.sep+"code.png")
@@ -81,6 +81,7 @@ import os
 import base64
 import json
 import requests
+from configs.conf_path import *
 # 一、图片文字类型(默认 3 数英混合)：
 # 1 : 纯数字
 # 1001：纯数字2
@@ -124,9 +125,9 @@ def base64_api(uname, pwd, img, typeid):
         return result["message"]
     return ""
 
-def verification_code():
+def verification_code(name):
     #return base64_api(uname='denghui', pwd='dengHUI12', img=_file_path+os.sep+"code.png", typeid=3)
     return base64_api(uname='denghui', pwd='dengHUI12',
-                      img="http://qa.shandong.giiatop.com/base/home/VerificationCode?height=40&width=128&fontsize=20&rnd=0.5321298534442522", typeid=49)
+                      img=file_data+os.sep+name, typeid=3)
 if __name__ == "__main__":
     print(verification_code())

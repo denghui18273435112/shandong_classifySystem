@@ -18,6 +18,7 @@ testcase_path =BASE_DIR +os.sep+"test_case"
 result_path = report_path+os.sep+"result"
 allure_reportt_path = report_path+os.sep+"allure_report"
 screenshots_path = file_path+os.sep+"screenshots"
+file_data =BASE_DIR +os.sep+"data"
 
 #文件路径
 _config_file = config_path +os.sep+"conf.yaml"            #定义conf.yaml的路径

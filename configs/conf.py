@@ -4,4 +4,6 @@
 #@Author    :denghui
 #@Email     :314983713@qq.com
 #@Software  :PyCharm
-url="http://qa.shandong.giiatop.com"
+url="http://employee.sdbx.org:10252"
+vcode_name= "vcode"
+cookie_name = "sd-siccms-token"
