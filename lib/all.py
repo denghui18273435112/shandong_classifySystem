@@ -8,7 +8,7 @@ import json
 import os
 import requests
 from configs.conf import *
-from configs.conf_path import test_xlsx
+from configs.path import test_xlsx
 from tools.update_data import update_data
 import datetime
 from tools.allureUitl import alluer_new

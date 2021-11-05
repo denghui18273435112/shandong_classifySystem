@@ -1,9 +1,3 @@
-#-*- conding:utf-8 -*-
-#@File      :conf_path.py
-#@Time      : 14:32
-#@Author    :denghui
-#@Email     :314983713@qq.com
-#@Software  :PyCharm
 import os
 current =os.path.abspath(__file__)                          #当前文件的路径
 BASE_DIR = os.path.dirname(os.path.dirname(current))        # 当前项目的绝对路径

@@ -9,7 +9,7 @@ import json
 import os
 import  re
 import subprocess
-from configs.conf_path import  report_path
+from configs.path import  report_path
 from tools.YamlUtil import YamlReaber
 
 """

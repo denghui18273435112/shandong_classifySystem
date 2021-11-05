@@ -4,21 +4,33 @@
   "children" : [ {
     "name" : "SZPC065",
     "children" : [ {
-      "name" : "31492-MainThread",
+      "name" : "1348-MainThread",
       "children" : [ {
         "name" : "test_ParameterlessAdjustment[Data0]",
-        "uid" : "6e727453e5b4faf6",
-        "parentUid" : "7cd69a022afaffdfb23e5f94891b1b52",
-        "status" : "failed",
+        "uid" : "3348040e33a4e8ae",
+        "parentUid" : "b51f78f94e3ba19e3813467f56763ed3",
+        "status" : "passed",
         "time" : {
-          "start" : 1636106594427,
-          "stop" : 1636106594677,
-          "duration" : 250
+          "start" : 1636107826102,
+          "stop" : 1636107826390,
+          "duration" : 288
         },
         "flaky" : false,
-        "parameters" : [ "{'case_id': 'qingqiu', 'case_model': 'qingqiu', 'case_name': 'qingqiu', 'priority': '中', 'title': '正确的参数', 'url': '/manageapi/membercompany/List', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\"pageNum\":1,\"pageSize\":20,\"total\":0,\"export\":false,\"by\":1,\"order\":\"entry_date\",\"kw\":\"邓辉\",\"auth_type\":\"S\",\"id_number\":\"370829198005030329\",\"id_number_array\":[]}', 'expect_result': 'ture', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+        "parameters" : [ "{'case_id': 'test_Index', 'case_model': '01-基础数据', 'case_name': '01-登录基础信息', 'priority': '中', 'title': '正确的参数', 'url': '/base/home/Index', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+      }, {
+        "name" : "test_ParameterlessAdjustment[Data1]",
+        "uid" : "c5351fd429ddbdaf",
+        "parentUid" : "b51f78f94e3ba19e3813467f56763ed3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636107826395,
+          "stop" : 1636107826528,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'test_district_getall', 'case_model': '01-基础数据', 'case_name': '02-获取省地市', 'priority': '中', 'title': '正确的参数', 'url': '/manageapi/district/getall', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"code\": 8637,\\n \"level\": 1,\\n \"includecode\": true\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
       } ],
-      "uid" : "7cd69a022afaffdfb23e5f94891b1b52"
+      "uid" : "b51f78f94e3ba19e3813467f56763ed3"
     } ],
     "uid" : "c6f266818e14d7fa60afa267f67f2dc4"
   } ]

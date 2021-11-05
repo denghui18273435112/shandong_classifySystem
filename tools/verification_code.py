@@ -2,7 +2,7 @@ import cv2 as cv
 import pytesseract
 from PIL import Image
 import os
-from configs.conf_path import *
+from configs.path import *
 #
 # def verification_code():
 #     src = cv.imread(_file_path+os.sep+"code.png")
@@ -81,7 +81,7 @@ from configs.conf_path import *
 import base64
 import json
 import requests
-from configs.conf_path import *
+from configs.path import *
 # 一、图片文字类型(默认 3 数英混合)：
 # 1 : 纯数字
 # 1001：纯数字2

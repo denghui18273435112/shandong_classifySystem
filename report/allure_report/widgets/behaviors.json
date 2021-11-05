@@ -4,10 +4,10 @@
     "uid" : "aa9a9e4b3ef4c042058baea069d5e95b",
     "name" : "山东分类系统",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

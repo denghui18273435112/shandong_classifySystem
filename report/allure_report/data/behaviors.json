@@ -4,25 +4,41 @@
   "children" : [ {
     "name" : "山东分类系统",
     "children" : [ {
-      "name" : "qingqiu",
+      "name" : "01-基础数据",
       "children" : [ {
-        "name" : "qingqiu-\n-正确的参数",
+        "name" : "01-登录基础信息-\n-正确的参数",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data0]",
-          "uid" : "6e727453e5b4faf6",
-          "parentUid" : "9b98618f30226ec4acdf4ea1471c14d8",
-          "status" : "failed",
+          "uid" : "3348040e33a4e8ae",
+          "parentUid" : "e4a453139f3a9d43503b920443b647f0",
+          "status" : "passed",
           "time" : {
-            "start" : 1636106594427,
-            "stop" : 1636106594677,
-            "duration" : 250
+            "start" : 1636107826102,
+            "stop" : 1636107826390,
+            "duration" : 288
           },
           "flaky" : false,
-          "parameters" : [ "{'case_id': 'qingqiu', 'case_model': 'qingqiu', 'case_name': 'qingqiu', 'priority': '中', 'title': '正确的参数', 'url': '/manageapi/membercompany/List', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\"pageNum\":1,\"pageSize\":20,\"total\":0,\"export\":false,\"by\":1,\"order\":\"entry_date\",\"kw\":\"邓辉\",\"auth_type\":\"S\",\"id_number\":\"370829198005030329\",\"id_number_array\":[]}', 'expect_result': 'ture', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+          "parameters" : [ "{'case_id': 'test_Index', 'case_model': '01-基础数据', 'case_name': '01-登录基础信息', 'priority': '中', 'title': '正确的参数', 'url': '/base/home/Index', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
         } ],
-        "uid" : "9b98618f30226ec4acdf4ea1471c14d8"
+        "uid" : "e4a453139f3a9d43503b920443b647f0"
+      }, {
+        "name" : "02-获取省地市-\n-正确的参数",
+        "children" : [ {
+          "name" : "test_ParameterlessAdjustment[Data1]",
+          "uid" : "c5351fd429ddbdaf",
+          "parentUid" : "b9f71d748faf0b5af3fc46febaacb774",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636107826395,
+            "stop" : 1636107826528,
+            "duration" : 133
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 'test_district_getall', 'case_model': '01-基础数据', 'case_name': '02-获取省地市', 'priority': '中', 'title': '正确的参数', 'url': '/manageapi/district/getall', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"code\": 8637,\\n \"level\": 1,\\n \"includecode\": true\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+        } ],
+        "uid" : "b9f71d748faf0b5af3fc46febaacb774"
       } ],
-      "uid" : "01ff1da4e731cc84ae6533b5964ab772"
+      "uid" : "a84e10be44a61e378e0146713464210f"
     } ],
     "uid" : "aa9a9e4b3ef4c042058baea069d5e95b"
   } ]

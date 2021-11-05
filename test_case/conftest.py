@@ -1,11 +1,8 @@
 import pytest
-from configs.conf_path import *
+from configs.path import *
 from lib.all import *
-from lib.login import login
 from tools.ExcelData import ExcelData
-from configs.login_token import login_token
 from tools.verification_code import verification_code
-
 
 @pytest.fixture(scope="session",autouse=True)
 def empty_report_file():

@@ -1,11 +1,21 @@
 [ {
-  "uid" : "6e727453e5b4faf6",
+  "uid" : "3348040e33a4e8ae",
   "name" : "test_ParameterlessAdjustment[Data0]",
   "time" : {
-    "start" : 1636106594427,
-    "stop" : 1636106594677,
-    "duration" : 250
+    "start" : 1636107826102,
+    "stop" : 1636107826390,
+    "duration" : 288
   },
-  "status" : "failed",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5351fd429ddbdaf",
+  "name" : "test_ParameterlessAdjustment[Data1]",
+  "time" : {
+    "start" : 1636107826395,
+    "stop" : 1636107826528,
+    "duration" : 133
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

@@ -1,21 +1,39 @@
 {
-  "1d7769f49b55aca62a22c8e8dbbf1d0e" : {
+  "c3fc58403f237f6679745ad82b681889" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e727453e5b4faf6",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 此用例校验失败.....;实际和预期结果未存在包含",
+      "uid" : "c5351fd429ddbdaf",
+      "status" : "passed",
       "time" : {
-        "start" : 1636106594427,
-        "stop" : 1636106594677,
-        "duration" : 250
+        "start" : 1636107826395,
+        "stop" : 1636107826528,
+        "duration" : 133
+      }
+    } ]
+  },
+  "1d7769f49b55aca62a22c8e8dbbf1d0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3348040e33a4e8ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636107826102,
+        "stop" : 1636107826390,
+        "duration" : 288
       }
     } ]
   }

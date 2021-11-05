@@ -1,5 +1,5 @@
 import xlrd
-from configs.conf_path import *
+from configs.path import *
 
 def ExcelData(beginColumn=None,file_name="山东分类系统用例.xls"):
     """

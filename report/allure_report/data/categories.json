@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: 此用例校验失败.....;实际和预期结果未存在包含",
-      "children" : [ {
-        "name" : "test_ParameterlessAdjustment[Data0]",
-        "uid" : "6e727453e5b4faf6",
-        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
-        "status" : "failed",
-        "time" : {
-          "start" : 1636106594427,
-          "stop" : 1636106594677,
-          "duration" : 250
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'qingqiu', 'case_model': 'qingqiu', 'case_name': 'qingqiu', 'priority': '中', 'title': '正确的参数', 'url': '/manageapi/membercompany/List', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\"pageNum\":1,\"pageSize\":20,\"total\":0,\"export\":false,\"by\":1,\"order\":\"entry_date\",\"kw\":\"邓辉\",\"auth_type\":\"S\",\"id_number\":\"370829198005030329\",\"id_number_array\":[]}', 'expect_result': 'ture', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
-      } ],
-      "uid" : "c36ca1ae20e9f9109f17300072670597"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }
