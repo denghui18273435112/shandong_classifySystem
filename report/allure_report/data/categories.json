@@ -7,32 +7,32 @@
       "name" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
       "children" : [ {
         "name" : "test_ParameterlessAdjustment[Data2]",
-        "uid" : "92ac18fc6ec1b835",
+        "uid" : "394ee758ae42024b",
         "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
         "status" : "broken",
         "time" : {
-          "start" : 1637053194031,
-          "stop" : 1637053194218,
-          "duration" : 187
+          "start" : 1638243147901,
+          "stop" : 1638243148011,
+          "duration" : 110
         },
         "flaky" : false,
-        "parameters" : [ "{'case_id': 'test_GetCurrentAllCompany', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '', 'title': '03-登录账号所属机构', 'url': '/manageapi/company/GetCurrentAllCompany', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+        "parameters" : [ "{'case_id': 'test_GetCurrentAllCompany', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '', 'title': '03-登录账号所属机构', 'url': '/manageapi/company/GetCurrentAllCompany', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': '', 'response_expect_result': '{\"$.code\":0,\"$.msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
       } ],
       "uid" : "7bcaf70ebf758f58bb51e7ee5ff79f52"
     }, {
       "name" : "json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
       "children" : [ {
         "name" : "test_ParameterlessAdjustment[Data9]",
-        "uid" : "2b5fe4a1c3b60df5",
+        "uid" : "56ba534734c0199c",
         "parentUid" : "7b85c204f62fe08012844417e8fc289c",
         "status" : "broken",
         "time" : {
-          "start" : 1637053195300,
-          "stop" : 1637053195300,
+          "start" : 1638243148967,
+          "stop" : 1638243148967,
           "duration" : 0
         },
         "flaky" : false,
-        "parameters" : [ "{'case_id': 'test_member_getarchives', 'case_model': '03-个人档案', 'case_name': '03-个人档案', 'priority': '', 'title': '01-进入个人档案', 'url': '/manageapi/member/getarchives', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{id: \"10455110\", isValid: true}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
+        "parameters" : [ "{'case_id': 'test_member_getarchives', 'case_model': '03-个人档案', 'case_name': '03-个人档案', 'priority': '', 'title': '01-进入个人档案', 'url': '/manageapi/member/getarchives', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{id: \"10455110\", isValid: true}', 'expect_result': '', 'response_expect_result': '{\"$.code\":0,\"$.msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
       } ],
       "uid" : "7b85c204f62fe08012844417e8fc289c"
     } ],

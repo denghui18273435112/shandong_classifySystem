@@ -124,15 +124,19 @@ class all:
         if "Parameterless-adjustment-account_delete-001" in self.inData["case_id"]:
             self.data["ids"] =delete_account_id
 
-        #接口请求;更新inData的数据;并生成allure报告 Parameterless-adjustment-account_list-00
-        print(self.inData["case_id"]+"-"+self.inData["case_name"])
-        print(self.new_url)
-        print(self.header)
-        print(self.data)
-        print("\n")
-
         body = requests.post(url=self.new_url,headers=self.header,json=self.data)
         inData = update_data(self.inData,self.data,self.new_url,self.header,body.json(),json.loads(self.inData["response_expect_result"]),self.conftest)
+
+        #接口请求;更新inData的数据;并生成allure报告 Parameterless-adjustment-account_list-0
+        print("\n\n"+self.inData["case_id"]+"-"+self.inData["case_name"])
+        print(self.inData)
+        print(self.data)
+        print(self.new_url)
+        print(self.header)
+        print(body.json())
+        print(self.inData)
+        # print(json.loads(self.inData["response_expect_result"]))
+        print(self.conftest)
         return inData,body
 
 

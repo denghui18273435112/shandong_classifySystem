@@ -25,8 +25,6 @@ def token():
     省公司登陆
     :return:
     """
-    #return  login.login(ExcelData("login-001")[0],conftest=False)
-    #return  login_token
     token = ""
     while True:
         res=requests.get("{}/base/home/VerificationCode?".format(url))
