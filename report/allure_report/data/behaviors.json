@@ -6,39 +6,163 @@
     "children" : [ {
       "name" : "01-基础数据",
       "children" : [ {
-        "name" : "01-登录基础信息-\n-正确的参数",
+        "name" : "01-基础数据-\n-01-登录基础信息",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data0]",
-          "uid" : "3348040e33a4e8ae",
-          "parentUid" : "e4a453139f3a9d43503b920443b647f0",
+          "uid" : "c1b27ac5cf5f2c1e",
+          "parentUid" : "84650fbb5b37d8b79a23e26dce0f281a",
           "status" : "passed",
           "time" : {
-            "start" : 1636107826102,
-            "stop" : 1636107826390,
-            "duration" : 288
+            "start" : 1637053193564,
+            "stop" : 1637053193894,
+            "duration" : 330
           },
           "flaky" : false,
-          "parameters" : [ "{'case_id': 'test_Index', 'case_model': '01-基础数据', 'case_name': '01-登录基础信息', 'priority': '中', 'title': '正确的参数', 'url': '/base/home/Index', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+          "parameters" : [ "{'case_id': 'test_Index', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '中', 'title': '01-登录基础信息', 'url': '/base/home/Index', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
         } ],
-        "uid" : "e4a453139f3a9d43503b920443b647f0"
+        "uid" : "84650fbb5b37d8b79a23e26dce0f281a"
       }, {
-        "name" : "02-获取省地市-\n-正确的参数",
+        "name" : "01-基础数据-\n-02-获取省地市",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data1]",
-          "uid" : "c5351fd429ddbdaf",
-          "parentUid" : "b9f71d748faf0b5af3fc46febaacb774",
+          "uid" : "4c93a3872654c2d5",
+          "parentUid" : "1734ccaa0b5e8c2328854d91dc5e8248",
           "status" : "passed",
           "time" : {
-            "start" : 1636107826395,
-            "stop" : 1636107826528,
+            "start" : 1637053193899,
+            "stop" : 1637053194026,
+            "duration" : 127
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 'test_district_getall', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '中', 'title': '02-获取省地市', 'url': '/manageapi/district/getall', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"code\": 8637,\\n \"level\": 1,\\n \"includecode\": true\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+        } ],
+        "uid" : "1734ccaa0b5e8c2328854d91dc5e8248"
+      } ],
+      "uid" : "a84e10be44a61e378e0146713464210f"
+    }, {
+      "name" : "test_ParameterlessAdjustment[Data2]",
+      "uid" : "92ac18fc6ec1b835",
+      "parentUid" : "aa9a9e4b3ef4c042058baea069d5e95b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1637053194031,
+        "stop" : 1637053194218,
+        "duration" : 187
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_id': 'test_GetCurrentAllCompany', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '', 'title': '03-登录账号所属机构', 'url': '/manageapi/company/GetCurrentAllCompany', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+    }, {
+      "name" : "02-个人信息查询",
+      "children" : [ {
+        "name" : "01-个人信息查询-\n-01-身份证查询",
+        "children" : [ {
+          "name" : "test_ParameterlessAdjustment[Data3]",
+          "uid" : "3118864a6d4fb3c7",
+          "parentUid" : "fefaff051db9631aeda72f61514fb1b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637053194323,
+            "stop" : 1637053194577,
+            "duration" : 254
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 'test_membercompany_List_01', 'case_model': '02-个人信息查询', 'case_name': '01-个人信息查询', 'priority': '', 'title': '01-身份证查询', 'url': '/manageapi/membercompany/List', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"total\": 0,\\n \"export\": false,\\n \"by\": 1,\\n \"order\": \"entry_date\",\\n \"kw\": \"李静\",\\n \"auth_type\": \"S\",\\n \"id_number\": \"370404197805064064\",\\n \"id_number_array\": []\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
+        } ],
+        "uid" : "fefaff051db9631aeda72f61514fb1b4"
+      }, {
+        "name" : "01-个人信息查询-\n-02-其它查询",
+        "children" : [ {
+          "name" : "test_ParameterlessAdjustment[Data4]",
+          "uid" : "8bfaa7ebc624906b",
+          "parentUid" : "2818494d9cad68035ac0ccf83691a07a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637053194581,
+            "stop" : 1637053194739,
+            "duration" : 158
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 'test_membercompany_List_02', 'case_model': '02-个人信息查询', 'case_name': '01-个人信息查询', 'priority': '', 'title': '02-其它查询', 'url': '/manageapi/membercompany/List', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"total\": 1,\\n \"export\": false,\\n \"by\": 1,\\n \"order\": \"entry_date\",\\n \"kw\": \"冯安然\",\\n \"auth_type\": \"O\",\\n \"id_number\": \"EFI260123\",\\n \"id_number_array\": []\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
+        } ],
+        "uid" : "2818494d9cad68035ac0ccf83691a07a"
+      }, {
+        "name" : "01-个人信息查询-\n-01-批量查询",
+        "children" : [ {
+          "name" : "test_ParameterlessAdjustment[Data5]",
+          "uid" : "e240915187371c91",
+          "parentUid" : "dd9acb3153ca0dd03e22ca4297d747c8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637053194744,
+            "stop" : 1637053194881,
+            "duration" : 137
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 'test_membercompany_List_03', 'case_model': '02-个人信息查询', 'case_name': '01-个人信息查询', 'priority': '', 'title': '01-批量查询', 'url': '/manageapi/membercompany/List', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"total\": 0,\\n \"export\": false,\\n \"by\": 1,\\n \"order\": \"entry_date\",\\n \"kw\": \"\",\\n \"auth_type\": \"\",\\n \"id_number\": \"\",\\n \"id_number_array\": [\\n  [\"EFI260123\", \"冯安然\"],\\n  [\"370404197805064064\", \"李静\"]\\n ]\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
+        } ],
+        "uid" : "dd9acb3153ca0dd03e22ca4297d747c8"
+      }, {
+        "name" : "02-个人信息修正-\n-01-身份证查询",
+        "children" : [ {
+          "name" : "test_ParameterlessAdjustment[Data6]",
+          "uid" : "7577f4f3ba19ece6",
+          "parentUid" : "22506ce2170648503812660f3cad502c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637053194885,
+            "stop" : 1637053195015,
+            "duration" : 130
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 'test_membercompany_AccurateGet_01', 'case_model': '02-个人信息查询', 'case_name': '02-个人信息修正', 'priority': '', 'title': '01-身份证查询', 'url': '/manageapi/membercompany/AccurateGet', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"by\": 1,\\n \"order\": \"\",\\n \"name\": \"李静\",\\n \"auth_type\": \"S\",\\n \"id_number\": \"370404197805064064\",\\n \"id_number_array\": []\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
+        } ],
+        "uid" : "22506ce2170648503812660f3cad502c"
+      }, {
+        "name" : "02-个人信息修正-\n-02-其它查询",
+        "children" : [ {
+          "name" : "test_ParameterlessAdjustment[Data7]",
+          "uid" : "74e62d511cf74f94",
+          "parentUid" : "00ab815392787c6b797a2c53aadf8144",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637053195019,
+            "stop" : 1637053195157,
+            "duration" : 138
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 'test_membercompany_AccurateGet_02', 'case_model': '02-个人信息查询', 'case_name': '02-个人信息修正', 'priority': '', 'title': '02-其它查询', 'url': '/manageapi/membercompany/AccurateGet', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"by\": 1,\\n \"order\": \"\",\\n \"name\": \"冯安然\",\\n \"auth_type\": \"O\",\\n \"id_number\": \"EFI260123\",\\n \"id_number_array\": []\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
+        } ],
+        "uid" : "00ab815392787c6b797a2c53aadf8144"
+      }, {
+        "name" : "02-个人信息修正-\n-01-批量查询",
+        "children" : [ {
+          "name" : "test_ParameterlessAdjustment[Data8]",
+          "uid" : "168695e1ed426c36",
+          "parentUid" : "d692bf869caaecaf29df7fbd812072eb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637053195161,
+            "stop" : 1637053195294,
             "duration" : 133
           },
           "flaky" : false,
-          "parameters" : [ "{'case_id': 'test_district_getall', 'case_model': '01-基础数据', 'case_name': '02-获取省地市', 'priority': '中', 'title': '正确的参数', 'url': '/manageapi/district/getall', 'pre_exec': '', 'method': 'post', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"code\": 8637,\\n \"level\": 1,\\n \"includecode\": true\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"请求成功\"}', 'actual_result': '', 'remark': ''}" ]
+          "parameters" : [ "{'case_id': 'test_membercompany_AccurateGet_03', 'case_model': '02-个人信息查询', 'case_name': '02-个人信息修正', 'priority': '', 'title': '01-批量查询', 'url': '/manageapi/membercompany/AccurateGet', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"by\": 1,\\n \"order\": \"\",\\n \"name\": \"\",\\n \"auth_type\": \"\",\\n \"id_number\": \"\",\\n \"id_number_array\": [\"370404197805064064\", \"李静\", \"EFI260123\", \"冯安然\"]\\n}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
         } ],
-        "uid" : "b9f71d748faf0b5af3fc46febaacb774"
+        "uid" : "d692bf869caaecaf29df7fbd812072eb"
       } ],
-      "uid" : "a84e10be44a61e378e0146713464210f"
+      "uid" : "07247f849379a9faef749e239b0fa4fb"
+    }, {
+      "name" : "test_ParameterlessAdjustment[Data9]",
+      "uid" : "2b5fe4a1c3b60df5",
+      "parentUid" : "aa9a9e4b3ef4c042058baea069d5e95b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1637053195300,
+        "stop" : 1637053195300,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_id': 'test_member_getarchives', 'case_model': '03-个人档案', 'case_name': '03-个人档案', 'priority': '', 'title': '01-进入个人档案', 'url': '/manageapi/member/getarchives', 'pre_exec': '', 'method': 'post', 'params_type': '', 'params': '{id: \"10455110\", isValid: true}', 'expect_result': '', 'response_expect_result': '{\"code\":0,\"msg\":\"成功\"}', 'actual_result': '', 'remark': ''}" ]
     } ],
     "uid" : "aa9a9e4b3ef4c042058baea069d5e95b"
   } ]
