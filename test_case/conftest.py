@@ -3,14 +3,11 @@ from configs.path import *
 from lib.all import *
 from tools.ExcelData import ExcelData
 from tools.verification_code import verification_code
+from tools.commonly_method import *
 
 @pytest.fixture(scope="session",autouse=True)
 def empty_report_file():
-    """
-    清空report-result文件夹,除environment.properties以外的其它所有文件
-    :param request:
-    :return:
-    """
+    """清空report-result文件夹,除environment.properties以外的其它所有文件"""
     try:
         for one in os.listdir(result_path):
             if "environment.properties" not in one:
@@ -19,138 +16,47 @@ def empty_report_file():
         pass
 
 @pytest.fixture(scope="session")
-def token():
-    """
-    获取登录token
-    省公司登陆
-    :return:
-    """
-    token = ""
-    while True:
-        res=requests.get("{}/base/home/VerificationCode?".format(url))
-        if res.status_code==200:
-            imgname  = file_data+os.sep+'code.jpg'
-            with open(imgname,"wb") as fd:
-                fd.write(res.content)
-        vcode = res.cookies["vcode"]
-        headers= {"cookie":"{0}={1}".format(vcode_name,vcode)}
-        data = json.loads(ExcelData("login-001")[0]["params"])
-        data["vcode"] = verification_code("code.jpg")
-        body = requests.post(url="{}/base/home/Login".format(url),json=data,headers=headers)
-        token = "{0}={1};{2}={3}".format(cookie_name,body.cookies["sd-siccms-token"],vcode_name,vcode)
-        if body.json()["msg"]=="登录成功":
-            break
-    return token
+def token_1():
+    """省协会登录；返回token"""
+    return login("login-001")
 
 @pytest.fixture(scope="session")
-def token_city():
-    """
-    获取登录token
-    地市公司登陆
-    :return:
-    """
-    return  login.login(ExcelData("login-002")[0],conftest=False)
+def token_2():
+    """省公司登录；返回token"""
+    return login("login-002")
 
 @pytest.fixture(scope="session")
-def role(token):
-    """
-    获取角色列表
-    :param token:
-    :return:
-    """
-    body = all(token=token,inData=ExcelData("Parameterless-adjustment-874455")[0],conftest=False).ParameterlessAdjustment()
-    return body[1].json()["data"][2]["id"]
+def token_3():
+    """市公司登录；返回token"""
+    return login("login-003")
 
 @pytest.fixture(scope="session")
-def company(token):
-    """
-    省公司
-    获取当前账号登录的所属公司id
-    :param token:
-    :return:
-    """
-    res = all(token=token,inData=ExcelData("Parameterless-adjustment--001")[0],conftest=False).ParameterlessAdjustment()
-    return res[1].json()["data"]["instid"]
+def company_id_1(token_1):
+    """获得省协会公司id"""
+    return  requests_zzl("test_GetCurrentAllCompany_01",token_1)["data"][0]["id"]
 
 @pytest.fixture(scope="session")
-def company_city(token_city):
-    """
-    地市公司
-    获取当前账号登录的所属公司id
-    :param token:
-    :return:
-    """
-    res =  all(token_city=token_city,inData=ExcelData("Parameterless-adjustment--001")[0],conftest=False).ParameterlessAdjustment()
-    return res[1].json()["data"]["instid"]
+def company_id_2(token_2):
+    """获得省公司id"""
+    return  requests_zzl("test_GetCurrentAllCompany_01",token_2)["data"][0]["id"]
 
 @pytest.fixture(scope="session")
-def account_name(token,company):
-    """
-    获取账号列表，第一行的账号名称
-    :param token:
-    :param company:
-    :param Data:
-    :return:
-    """
-    res = all(token=token,inData=ExcelData("account_list-001")[0],conftest=False).ParameterlessAdjustment(company=company)
-    return  res[1].json()["data"]["list"][0]["nickName"]
+def company_id_3(token_3):
+    """获得省协会公司id"""
+    return  requests_zzl("test_GetCurrentAllCompany_01",token_3)["data"][0]["id"]
 
 @pytest.fixture(scope="session")
-def delete_account_id(token,company,role,account_name="无"):
-    """
-    以列表的形式返回需要删除的id；
-    通过校验名称和昵称获取id
-    :param token:
-    :param company:
-    :param role:
-    :return:
-    """
-    res = all(token=token,inData=ExcelData("account_list-001")[0],conftest=False).ParameterlessAdjustment(company=company,account_name=account_name)[1].json()
-    del_list = []
-    for x in range(int(len(res["data"]["list"]))):
-        name = res["data"]["list"][x]["name"]
-        nickName = res["data"]["list"][x]["nickName"]
-        if  name!=None  or nickName!=None:
-            if "test00123" in name or  "test00123" in nickName:
-                del_list.append(res["data"]["list"][x]["id"])
-    return  del_list
+def year(token_1):
+    """获得年份"""
+    return  requests_zzl("test_GetYear_01",token_1)["data"][0]
 
-@pytest.fixture(scope="session")
-def year(token):
-    """
-    获取年份
-    :param token:
-    :return:
-    """
-    res =all(token=token,inData=ExcelData("Parameterless-adjustment-10004")[0],conftest=False).ParameterlessAdjustment()
-    return  res[1].json()["data"][0]
 
-@pytest.fixture(scope="session")
-def number_id(token,company,year):
-    """
-    获取成员的member_id
-    :param token:
-    :return:
-    """
-    res =all(token=token,inData=ExcelData("Query_students-001")[0],conftest=False).student_details_list(company=company,year=year)
-    return  res[1].json()["data"]["list"][0]["member_id"]
 
-@pytest.fixture(scope="session")
-def training_program_id(token,company,year):
-    """
-    获取当年培训类型id
-    :param token:
-    :return:
-    """
-    res =all(token=token,inData=ExcelData("Parameterless-adjustment-314983")[0],conftest=False).ParameterlessAdjustment(company=company,year=year)
-    return  res[1].json()["data"]["type"][0]["course_id"]
 
-@pytest.fixture(scope="session")
-def training_program_name(token,training_program_id):
-    """
-    获取当年培训类型的名称
-    :param token:
-    :return:
-    """
-    res =all(token=token,inData=ExcelData("Parameterless-adjustment-921206-001")[0],conftest=False).ParameterlessAdjustment(training_program_id=training_program_id)
-    return  res[1].json()["data"][1]
+
+
+
+
+
+
+

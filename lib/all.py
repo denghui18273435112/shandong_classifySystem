@@ -13,134 +13,83 @@ from tools.update_data import update_data
 import datetime
 from tools.allureUitl import alluer_new
 from tools.md5Uitl import get_md5
+from tools.commonly_method import *
+from tools.Base import *
 
 class all:
     """
     所有模块
     """
-    def __init__(self,token,inData,conftest=True):
-        self.header = {"Cookie":token}
+    def __init__(self,token_1,token_2,token_3,company_id_1,company_id_2,company_id_3,inData,conftest=True):
+        self.token_1 = token_1
+        self.token_2 = token_2
+        self.token_3 = token_3
+        self.header = {"Cookie":token_1}
         self.proxies = {"http":"http://127.0.0.1:8888"}
         self.inData = inData
         self.new_url= url+inData["url"]
         self.data = json.loads(inData["params"])
         self.conftest=conftest
+        self.company_id_1 = company_id_1
+        self.company_id_2 = company_id_2
+        self.company_id_2 = company_id_3
 
-    def ParameterlessAdjustment(self,company=None,year=None,number_id=None,role=None,account_name=None,
-                                training_program_id=None,training_program_name=None,delete_account_id=None):
-        """
-        所有测试用例集合
-        :return:
-        """
-        if "Parameterless-adjustment--" in self.inData["case_id"]:
+    def ParameterlessAdjustment(self,year=None):
+
+         #替换字段值；如日期、年份、公司id
+        if isinstance(self.data,list):
             pass
+        else:
+            for key in self.data.keys():
+                if key == "plan_year" or key == "training_year":
+                    self.data[key] = year
+                if key == "company_id":
+                    self.data[key] = self.company_id_1
+                if key == "pageNum":
+                    self.data[key] = 1
+                if key == "pageSize":
+                    self.data[key] = 20
+                if key == "start_date":
+                    self.data[key] = "{}-01-01".format(date_YmdHMS(5))
+                if key == "end_date":
+                    self.data[key] = "{}".format(date_YmdHMS(4))
+                if key == "date":
+                    if "test_GetTrendChart_01"  in self.inData["case_id"]:
+                        pass
+                    else:
+                        self.data[key][0] = "{}-01-01".format(date_YmdHMS(5))
+                        self.data[key][1] = "{}".format(date_YmdHMS(4))
 
-        #学员详情#
-        if "Parameterless-adjustment-11" in self.inData["case_id"]:
-            if "Parameterless-adjustment-1100" in self.inData["case_id"]:
-                self.data["company_id"] = company
-                self.data["plan_year"] = year
-            if "Parameterless-adjustment-11107" in self.inData["case_id"]:
-                self.data["number_id"] = number_id
 
-        #培训计划报送#
-        if "Parameterless-adjustment--445" in self.inData["case_id"]:
-            if "Parameterless-adjustment--44--01" in self.inData["case_id"]:
-                for x in range(len(self.data)):
-                    self.data[x]["companyId"] = company
-                    IncrNumber = 0
-                    stockNumber = 0
-                    for y in range(10):
-                        self.data[x]["c{}Incr".format(y+1)] = random.randint(1,100)
-                        IncrNumber +=self.data[x]["c{}Incr".format(y+1)]
-                        self.data[x]["c{}Stock".format(y+1)] = random.randint(25,50)
-                        stockNumber +=self.data[x]["c{}Stock".format(y+1)]
-                    self.data[x]["stockNumber"] = IncrNumber
-                    self.data[x]["incrNumber"] = stockNumber
-                    self.data[x]["remark"] = "自动化接口数据"
-                    self.data[x]["planYear"] = year
-                    remainder = (stockNumber+IncrNumber)%4
-                    average_score = (stockNumber+IncrNumber)//4
-                    for z in range(4):
-                        self.data[x]["quarter{}Number".format(z+1)]=average_score
-                        if remainder !=0 and z==0:
-                            self.data[x]["quarter{}Number".format(z+1)] += remainder
-            if "Parameterless-adjustment--44--003"  in inData["case_id"]:
-                data["company_id"] = company
-                data["plan_year"] = year
 
-        #首页-数字概览#
-        if "Parameterless-adjustment-333-" in self.inData["case_id"]:
-            self.data["company_id"] = company
-            self.data["plan_year"] = year
 
-        #首页-公司数据#
-        if "Parameterless-adjustment-222-" in self.inData["case_id"]:
-            self.data["company_id"] = company
-            self.data["plan_year"] = year
 
-        #培训记录导入#
-        if "Parameterless-adjustment-11111-001" in self.inData["case_id"]:
-            request_file = {'file':('ctest.xlsx',open(test_xlsx,"rb"))}
-            self.data["class_date_end"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        #接口操作具有依耐性
+        if "test_adminuserAdd_03" in self.inData["case_id"]:
+            id = requests_zzl("case_adminuserList_03",self.token_1)["data"]["list"][0]["id"]
+            self.data["ids"].append(id)
 
-        #获取培训课程#
-        if "Parameterless-adjustment-314983" in self.inData["case_id"]:
-            self.data["company_id"] = company
-            self.data["plan_year"] = year
 
-        #大纲明细#
-        if "Parameterless-adjustment-921206" in self.inData["case_id"]:
-            if "Parameterless-adjustment-921206-001" in self.inData["case_id"]:
-                self.data["courseId"] = training_program_id
-            if "Parameterless-adjustment-921206-002" in self.inData["case_id"]:
-                self.data["courseId"] = training_program_id
-                self.data["module"].append(training_program_name)
+        #区分是否上传文件；请求
+        if "case_2" in self.inData["case_id"]:
+                body = requests.post(url=self.new_url, headers=self.header, data=self.data, files=request_file,proxies=self.proxies)
+        else:
+            body = requests.post(url=self.new_url, headers=self.header, json=self.data,proxies=self.proxies)
 
-        #列表账号管理数据#
-        if "Parameterless-adjustment-account_list-00" in self.inData["case_id"]:
-            self.data["kw"] ="denghui008"
-            self.data["companyId"]=company
 
-        #账号添加#
-        if "Parameterless-adjustment-account_add-00" in self.inData["case_id"]:
-            if "Parameterless-adjustment-account_add-003" not in self.inData["case_id"]:
-                self.data["companyId"] = company
-            if "Parameterless-adjustment-account_add-004" not in self.inData["case_id"]:
-                self.data["roles"]=[]
-                self.data["roles"].append(role)
-            if "Parameterless-adjustment-account_add-005" not in self.inData["case_id"]:
-                self.data["pwd"] = get_md5(self.data["name"])
-            if "Parameterless-adjustment-account_add-006" in self.inData["case_id"]:
-                self.data["name"] =self.data["name"]+datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-                self.data["nickName"] =self.data["nickName"]+datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-                self.data["pwd"] = get_md5(self.data["name"])
-            if "Parameterless-adjustment-account_add-007" in self.inData["case_id"]:
-                self.data["name"] =self.data["name"]+datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-                self.data["nickName"] =self.data["nickName"]+datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-                self.data["pwd"] = get_md5(self.data["name"])
-
-         #账号删除#
-        if "Parameterless-adjustment-account_delete-001" in self.inData["case_id"]:
-            self.data["ids"] =delete_account_id
-
-        body = requests.post(url=self.new_url,headers=self.header,json=self.data)
+        #打印,生成报告
+        if self.conftest==True:
+            print("\n\n"+self.inData["case_id"]+"-"+self.inData["case_name"])
+            print(self.inData)
+            print(self.data)
+            print(self.new_url)
+            print(self.header)
+            print(body.json())
+            print(self.inData)
+            print(json.loads(self.inData["response_expect_result"]))
+            print(self.conftest)
         inData = update_data(self.inData,self.data,self.new_url,self.header,body.json(),json.loads(self.inData["response_expect_result"]),self.conftest)
-
-        #接口请求;更新inData的数据;并生成allure报告 Parameterless-adjustment-account_list-0
-        print("\n\n"+self.inData["case_id"]+"-"+self.inData["case_name"])
-        print(self.inData)
-        print(self.data)
-        print(self.new_url)
-        print(self.header)
-        print(body.json())
-        print(self.inData)
-        # print(json.loads(self.inData["response_expect_result"]))
-        print(self.conftest)
         return inData,body
-
-
-
 
 
 
