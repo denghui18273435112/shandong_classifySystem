@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 此用例校验失败.....;实际和预期结果未存在包含",
+      "children" : [ {
+        "name" : "test_ParameterlessAdjustment[Data1]",
+        "uid" : "397b859143690b04",
+        "parentUid" : "c36ca1ae20e9f9109f17300072670597",
+        "status" : "failed",
+        "time" : {
+          "start" : 1639390442848,
+          "stop" : 1639390444356,
+          "duration" : 1508
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'test_GetRecordForStudy_02', 'case_model': '04-培训学分查询', 'case_name': '01-查询查询', 'priority': '', 'title': '02-所有条件查询', 'url': '/manageapi/membertraining/GetRecordForStudy', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"auth_type\": \"\",\\n \"company_id\": \"8637000000\",\\n \"agency\": \"false\",\\n \"course_id\": \"5753\",\\n \"status\": \"\",\\n \"kw_id_number\": \"431225199212061818\",\\n \"kw_name\": \"邓辉\",\\n \"training_agency\": \"\",\\n \"training_type\": \"\",\\n \"training_year\": 2022,\\n \"pre_work\": \"\",\\n \"level\": \"\",\\n \"self\": \"0\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"count\": 69875,\\n \"order\": \"mt.created_time\",\\n \"direction\": \"desc\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n \"$.data.list[*].name\": \"name\",\\n \"$.data.list[*].id_number\": \"431225199212061818\"\\n}', 'actual_result': '', 'remark': ''}" ]
+      } ],
+      "uid" : "c36ca1ae20e9f9109f17300072670597"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
