@@ -40,7 +40,7 @@ def ExcelData(beginColumn=None,file_name="山东分类系统用例.xls"):
 
 
 if __name__ == "__main__":
-    print(ExcelData(""))
+    print( ExcelData("case_adminuserList_03")[0])
 
 
 

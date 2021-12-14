@@ -3,6 +3,17 @@ from configs.path import *
 from lib.all import *
 from tools.ExcelData import ExcelData
 from tools.verification_code import verification_code
+import json
+import os
+import requests
+from configs.conf import *
+from configs.path import test_xlsx
+from tools.update_data import update_data
+import datetime
+from tools.allureUitl import alluer_new
+from tools.md5Uitl import get_md5
+from tools.commonly_method import *
+from tools.Base import *
 
 def login(case_id="login-001"):
     """
@@ -27,7 +38,7 @@ def login(case_id="login-001"):
             break
     return token
 
-def  requests_zzl(case_id,token):
+def  requests_zzl(case_id,token_1=None,company_id_1=None,year=None):
     """
 接口请求
     :return:
@@ -35,7 +46,27 @@ def  requests_zzl(case_id,token):
     table_data = ExcelData(case_id)[0]
     url_new = url+table_data["url"]
     data_new = json.loads(table_data["params"])
-    header = {"Cookie":"{0}".format(token)}
+    for key in data_new.keys():
+        if key == "plan_year" or key == "training_year" or key == "year":
+            data_new[key] = year
+        if key == "company_id" or key == "companyId":
+            data_new[key] = company_id_1
+        if key == "pageNum":
+            data_new[key] = 1
+        if key == "pageSize":
+            data_new[key] = 20
+        if key == "start_date":
+            data_new[key] = "{}-01-01".format(date_YmdHMS(5))
+        if key == "end_date":
+            data_new[key] = "{}".format(date_YmdHMS(4))
+        if key == "date" or key == "created_time":
+                if "test_GetTrendChart_01"  in table_data["case_id"] or "test_GetStatisList"  in table_data["case_id"]:
+                    pass
+                else:
+                    data_new[key][0] = "{}-01-01".format(date_YmdHMS(5))
+                    data_new[key][1] = "{}".format(date_YmdHMS(4))
+    header = {"Cookie":"{0}".format(token_1)}
+
     return requests.post(url=url_new, headers=header, json=data_new).json()
 
 
