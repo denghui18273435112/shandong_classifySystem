@@ -98,7 +98,7 @@ class all:
                 or "test_ImportMemberTraining_01" in self.inData["case_id"]:
             body = requests.post(url=self.new_url, headers=self.header, data=self.data,files=request_file)
         else:
-            body = requests.post(url=self.new_url, headers=self.header, json=self.data,proxies=self.proxies)
+            body = requests.post(url=self.new_url, headers=self.header, json=self.data)
 
 
         #打印,生成报告
