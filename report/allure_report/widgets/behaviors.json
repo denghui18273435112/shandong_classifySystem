@@ -5,9 +5,9 @@
     "name" : "山东分类系统",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 13,
       "unknown" : 0,
       "total" : 14
     }

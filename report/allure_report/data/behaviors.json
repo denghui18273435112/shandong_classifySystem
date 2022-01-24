@@ -9,13 +9,13 @@
         "name" : "01-基础数据-\n-01-登录基础信息",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data0]",
-          "uid" : "3598575a49e4fef2",
+          "uid" : "85c193a6eba3e26c",
           "parentUid" : "84650fbb5b37d8b79a23e26dce0f281a",
           "status" : "passed",
           "time" : {
-            "start" : 1639535463677,
-            "stop" : 1639535464063,
-            "duration" : 386
+            "start" : 1643009978202,
+            "stop" : 1643009978528,
+            "duration" : 326
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_Index_01', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '中', 'title': '01-登录基础信息', 'url': '/base/home/Index', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -25,13 +25,13 @@
         "name" : "01-基础数据-\n-02-获取年份",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data1]",
-          "uid" : "ab14b29243759af",
+          "uid" : "b71dffeb51cbea96",
           "parentUid" : "80633ccd448d892b0f940f9bceb6da27",
           "status" : "passed",
           "time" : {
-            "start" : 1639535464068,
-            "stop" : 1639535464195,
-            "duration" : 127
+            "start" : 1643009978533,
+            "stop" : 1643009978678,
+            "duration" : 145
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetYear_01', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '', 'title': '02-获取年份', 'url': '/manageapi/cipinitdata/GetYear', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -41,13 +41,13 @@
         "name" : "01-基础数据-\n-03-获取账号所属机构",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data2]",
-          "uid" : "9ff4e12f3f62fd8c",
+          "uid" : "bf1bc9191f28aed9",
           "parentUid" : "c5cb5c9b05ed3098371d14575c1ffe09",
           "status" : "passed",
           "time" : {
-            "start" : 1639535464199,
-            "stop" : 1639535472275,
-            "duration" : 8076
+            "start" : 1643009978682,
+            "stop" : 1643009986320,
+            "duration" : 7638
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetCurrentAllCompany_01', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '', 'title': '03-获取账号所属机构', 'url': '/manageapi/initdata/GetCurrentAllCompany', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -57,13 +57,13 @@
         "name" : "01-基础数据-\n-02-获取省 地市",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data3]",
-          "uid" : "d76d6ff0c13d844a",
+          "uid" : "b8a2444380e41922",
           "parentUid" : "1a6502208ee4e576e387f13e010fee47",
           "status" : "passed",
           "time" : {
-            "start" : 1639535472335,
-            "stop" : 1639535472544,
-            "duration" : 209
+            "start" : 1643009986376,
+            "stop" : 1643009986515,
+            "duration" : 139
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_district_getall', 'case_model': '01-基础数据', 'case_name': '01-基础数据', 'priority': '中', 'title': '02-获取省 地市', 'url': '/manageapi/district/getall', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -77,13 +77,13 @@
         "name" : "01-数字概览-\n-各类达标情况",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data4]",
-          "uid" : "7227b905c26c728",
+          "uid" : "43937e42130cfb0",
           "parentUid" : "e0775633202e211d12fab4268328db80",
           "status" : "passed",
           "time" : {
-            "start" : 1639535472549,
-            "stop" : 1639535472907,
-            "duration" : 358
+            "start" : 1643009986519,
+            "stop" : 1643009987000,
+            "duration" : 481
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_indexGetSum_01', 'case_model': '02-首页', 'case_name': '01-数字概览', 'priority': '中', 'title': '各类达标情况', 'url': '/manageapi/cipinitdata/GetSum', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -93,13 +93,13 @@
         "name" : "02-数字概览-\n-走势图达标情况",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data5]",
-          "uid" : "29fa0e8ba9b200dd",
+          "uid" : "f8c72e17df631af7",
           "parentUid" : "b4678db97944f5dc09b7b57f9ec53071",
           "status" : "passed",
           "time" : {
-            "start" : 1639535472912,
-            "stop" : 1639535473552,
-            "duration" : 640
+            "start" : 1643009987004,
+            "stop" : 1643009987462,
+            "duration" : 458
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_indexGetDate_01', 'case_model': '02-首页', 'case_name': '02-数字概览', 'priority': '中', 'title': '走势图达标情况', 'url': '/manageapi/cipinitdata/GetDate', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -109,13 +109,13 @@
         "name" : "03-数字概览-\n-总已参训人数/总计划人数、总达标人数/总参训人数",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data6]",
-          "uid" : "3eae2a58c565c25",
+          "uid" : "4ee35119177aa441",
           "parentUid" : "bf3e93644ae5457a7a85143c11d62bc0",
           "status" : "passed",
           "time" : {
-            "start" : 1639535473557,
-            "stop" : 1639535474480,
-            "duration" : 923
+            "start" : 1643009987466,
+            "stop" : 1643009989220,
+            "duration" : 1754
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetTrendChart_01', 'case_model': '02-首页', 'case_name': '03-数字概览', 'priority': '中', 'title': '总已参训人数/总计划人数、总达标人数/总参训人数', 'url': '/manageapi/cipinitdata/GetTrendChart', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"scene\": 1,\\n \"type\": 0,\\n \"date\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2022,\\n \"self\": \"0\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -125,13 +125,13 @@
         "name" : "04-学员详情-\n-查询学员信息-00正常参数查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data7]",
-          "uid" : "6bcb8ab319887fd3",
+          "uid" : "347b877dc773840e",
           "parentUid" : "1f5f1ef57edf8b3c5fbae94f16cb1c91",
           "status" : "passed",
           "time" : {
-            "start" : 1639535474485,
-            "stop" : 1639535477942,
-            "duration" : 3457
+            "start" : 1643009989223,
+            "stop" : 1643009995348,
+            "duration" : 6125
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetDetailList_01', 'case_model': '02-首页', 'case_name': '04-学员详情', 'priority': '中', 'title': '查询学员信息-00正常参数查询', 'url': '/manageapi/index/GetDetailList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"count\": 111620,\\n \"order\": \"create_time\",\\n \"by\": 1,\\n \"kw\": \"\",\\n \"course_id\": \"\",\\n \"agency\": \"\",\\n \"status\": \"\",\\n \"pre_work\": \"\",\\n \"level\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2022,\\n \"self\": \"0\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -141,13 +141,13 @@
         "name" : "05-学员详情-\n-查询学员信息-01姓名查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data8]",
-          "uid" : "d37553f94d814e75",
+          "uid" : "b6a17c3b9581178",
           "parentUid" : "06230ef33a1a0bf56d35683d207937b6",
           "status" : "passed",
           "time" : {
-            "start" : 1639535477947,
-            "stop" : 1639535480599,
-            "duration" : 2652
+            "start" : 1643009995352,
+            "stop" : 1643010001115,
+            "duration" : 5763
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetDetailList_02', 'case_model': '02-首页', 'case_name': '05-学员详情', 'priority': '中', 'title': '查询学员信息-01姓名查询', 'url': '/manageapi/index/GetDetailList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"count\": 111620,\\n \"order\": \"create_time\",\\n \"by\": 1,\\n \"kw\": \"邓辉\",\\n \"course_id\": \"\",\\n \"agency\": \"\",\\n \"status\": \"\",\\n \"pre_work\": \"\",\\n \"level\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2022,\\n \"self\": \"0\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n \"$.data.list[*].name\": \"邓辉\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -157,13 +157,13 @@
         "name" : "06-学员详情-\n-查询学员信息-02公司查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data9]",
-          "uid" : "1ddac05d24c8b3ec",
+          "uid" : "40d519a858ef3f94",
           "parentUid" : "99ae99cc1f42ab355474d875b5e932c9",
           "status" : "passed",
           "time" : {
-            "start" : 1639535480603,
-            "stop" : 1639535483098,
-            "duration" : 2495
+            "start" : 1643010001119,
+            "stop" : 1643010006854,
+            "duration" : 5735
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetDetailList_03', 'case_model': '02-首页', 'case_name': '06-学员详情', 'priority': '中', 'title': '查询学员信息-02公司查询', 'url': '/manageapi/index/GetDetailList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\"agency\": \"\",\\n\"by\": 1,\\n\"company_id\":\"8637000000\",\\n\"count\": 0,\\n\"course_id\": \"\",\\n\"kw\":\"中国人寿保险股份有限公司济南市分公司\",\\n\"level\":\"\",\\n\"order\": \"create_time\",\\n\"pageNum\":1,\\n\"pageSize\":20,\\n\"plan_year\": 2021,\\n\"pre_work\": \"\",\\n\"status\":\"\",\\n\"training_agency\": \"\",\\n\"training_type\": \"\"}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -173,13 +173,13 @@
         "name" : "07-学员详情-\n-查询学员信息-03培训类型查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data10]",
-          "uid" : "d1b2d5fda70d4539",
+          "uid" : "ae63b674fa07d0fc",
           "parentUid" : "f15c7fd333d1062a9f7c2df94cde9d08",
           "status" : "passed",
           "time" : {
-            "start" : 1639535483103,
-            "stop" : 1639535484308,
-            "duration" : 1205
+            "start" : 1643010006857,
+            "stop" : 1643010008607,
+            "duration" : 1750
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetDetailList_04', 'case_model': '02-首页', 'case_name': '07-学员详情', 'priority': '中', 'title': '查询学员信息-03培训类型查询', 'url': '/manageapi/index/GetDetailList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"count\": 5,\\n \"order\": \"create_time\",\\n \"by\": 1,\\n \"kw\": \"\",\\n \"course_id\": \"5753\",\\n \"agency\": \"false\",\\n \"status\": \"\",\\n \"pre_work\": \"\",\\n \"level\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2022,\\n \"self\": \"0\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n\"$.data.list[*].course_name\": \"A类：基础保险销售执业培训\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -189,13 +189,13 @@
         "name" : "08-学员详情-\n-查询学员信息-04达标状态查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data11]",
-          "uid" : "9a7dcdeaff492d80",
+          "uid" : "b6ad4b81f1773bc0",
           "parentUid" : "c36cb38d86333e226471727d34c91ad9",
           "status" : "passed",
           "time" : {
-            "start" : 1639535484313,
-            "stop" : 1639535486952,
-            "duration" : 2639
+            "start" : 1643010008611,
+            "stop" : 1643010013053,
+            "duration" : 4442
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetDetailList_05', 'case_model': '02-首页', 'case_name': '08-学员详情', 'priority': '中', 'title': '查询学员信息-04达标状态查询', 'url': '/manageapi/index/GetDetailList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"count\": 111624,\\n \"order\": \"create_time\",\\n \"by\": 1,\\n \"kw\": \"\",\\n \"course_id\": \"\",\\n \"status\": \"A\",\\n \"pre_work\": \"\",\\n \"level\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2022,\\n \"self\": \"0\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n\"$.data.list[*].status\": \"A\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -205,13 +205,13 @@
         "name" : "09-学员详情-\n-查询学员信息-05销售能力查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data12]",
-          "uid" : "7dc79774191f2f10",
+          "uid" : "dac80fa1bf9cfbd9",
           "parentUid" : "cfca165e5e5052e95b8ffc27fc02323f",
           "status" : "passed",
           "time" : {
-            "start" : 1639535486956,
-            "stop" : 1639535488352,
-            "duration" : 1396
+            "start" : 1643010013056,
+            "stop" : 1643010015514,
+            "duration" : 2458
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetDetailList_06', 'case_model': '02-首页', 'case_name': '09-学员详情', 'priority': '中', 'title': '查询学员信息-05销售能力查询', 'url': '/manageapi/index/GetDetailList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"count\": 111624,\\n \"order\": \"create_time\",\\n \"by\": 1,\\n \"kw\": \"\",\\n \"course_id\": \"\",\\n \"agency\": \"\",\\n \"status\": \"\",\\n \"pre_work\": \"\",\\n \"level\": \"1\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2022,\\n \"self\": \"0\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n\"$.data.list[*].level\": 1\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -221,13 +221,13 @@
         "name" : "10-学员详情-\n-进入学员详情",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data13]",
-          "uid" : "102c0c78814e0ad8",
+          "uid" : "1a797b651d72b43c",
           "parentUid" : "67ff2f5a04b20c24073295c5a4251669",
           "status" : "passed",
           "time" : {
-            "start" : 1639535488358,
-            "stop" : 1639535488514,
-            "duration" : 156
+            "start" : 1643010015517,
+            "stop" : 1643010015647,
+            "duration" : 130
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetRecordForMember_01', 'case_model': '02-首页', 'case_name': '10-学员详情', 'priority': '中', 'title': '进入学员详情', 'url': '/manageapi/membertraining/GetRecordForMember', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"member_id\": 10483281\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n\"$.data.data.id_number\": \"431225199212061818\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -237,13 +237,13 @@
         "name" : "11-公司数据-\n-默认参数查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data14]",
-          "uid" : "ea271ad9b15e114c",
+          "uid" : "7beeded67d114586",
           "parentUid" : "1a5379fbe1dcdb06d2ef4561d683a8c6",
           "status" : "passed",
           "time" : {
-            "start" : 1639535488519,
-            "stop" : 1639535493153,
-            "duration" : 4634
+            "start" : 1643010015651,
+            "stop" : 1643010020463,
+            "duration" : 4812
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetCompanyTypeStatisticsList_01', 'case_model': '02-首页', 'case_name': '11-公司数据', 'priority': '中', 'title': '默认参数查询', 'url': '/manageapi/index/GetCompanyTypeStatisticsList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"order\": \"created_time\",\\n \"by\": \"\",\\n \"kw\": \"\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"companytype\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2021\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -253,13 +253,13 @@
         "name" : "12-公司数据-\n-机构类型查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data15]",
-          "uid" : "93a4bb358351ed15",
+          "uid" : "e0edf487d738623e",
           "parentUid" : "d2a83b98bf9567cd6f07a98f12f8c818",
           "status" : "passed",
           "time" : {
-            "start" : 1639535493158,
-            "stop" : 1639535493937,
-            "duration" : 779
+            "start" : 1643010020467,
+            "stop" : 1643010021326,
+            "duration" : 859
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetCompanyTypeStatisticsList_02', 'case_model': '02-首页', 'case_name': '12-公司数据', 'priority': '中', 'title': '机构类型查询', 'url': '/manageapi/index/GetCompanyTypeStatisticsList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"order\": \"created_time\",\\n \"by\": \"\",\\n \"kw\": \"\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"companytype\": \"CX\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2021\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -269,13 +269,13 @@
         "name" : "13-公司数据-\n-公司名称查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data16]",
-          "uid" : "317ef9898ed882c1",
+          "uid" : "6916cc09a572c6e5",
           "parentUid" : "f334f4a02b9dc9dee926e7f9d07b8c55",
           "status" : "passed",
           "time" : {
-            "start" : 1639535493942,
-            "stop" : 1639535494357,
-            "duration" : 415
+            "start" : 1643010021331,
+            "stop" : 1643010021728,
+            "duration" : 397
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetCompanyTypeStatisticsList_03', 'case_model': '02-首页', 'case_name': '13-公司数据', 'priority': '中', 'title': '公司名称查询', 'url': '/manageapi/index/GetCompanyTypeStatisticsList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"order\": \"created_time\",\\n \"by\": \"\",\\n \"kw\": \"人民\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"companytype\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2021\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -285,13 +285,13 @@
         "name" : "15-公司数据-\n-自定义排序倒序",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data17]",
-          "uid" : "bbd676688970816a",
+          "uid" : "ef3d96286a7c86ca",
           "parentUid" : "d826b0cb5941f828d74827b4bfbcd478",
           "status" : "passed",
           "time" : {
-            "start" : 1639535494362,
-            "stop" : 1639535498663,
-            "duration" : 4301
+            "start" : 1643010021732,
+            "stop" : 1643010027462,
+            "duration" : 5730
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetCompanyTypeStatisticsList_04', 'case_model': '02-首页', 'case_name': '15-公司数据', 'priority': '中', 'title': '自定义排序倒序', 'url': '/manageapi/index/GetCompanyTypeStatisticsList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"order\": \"planningTotal\",\\n \"by\": \"\",\\n \"kw\": \"\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"companytype\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2021\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -301,13 +301,13 @@
         "name" : "16-公司数据-\n-自定义排序正序",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data18]",
-          "uid" : "c259e082f1c5626c",
+          "uid" : "4d129634c4ad3612",
           "parentUid" : "8e5d8163f19a282072fa3f5d32568d79",
           "status" : "passed",
           "time" : {
-            "start" : 1639535498667,
-            "stop" : 1639535503612,
-            "duration" : 4945
+            "start" : 1643010027466,
+            "stop" : 1643010032247,
+            "duration" : 4781
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetCompanyTypeStatisticsList_05', 'case_model': '02-首页', 'case_name': '16-公司数据', 'priority': '中', 'title': '自定义排序正序', 'url': '/manageapi/index/GetCompanyTypeStatisticsList', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"order\": \"planningTotal\",\\n \"by\": \"0\",\\n \"kw\": \"\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"companytype\": \"\",\\n \"company_id\": \"8637000000\",\\n \"training_type\": \"\",\\n \"training_agency\": \"\",\\n \"plan_year\": 2021\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -321,50 +321,18 @@
         "name" : "01-默认条件查询-\n-默认查询",
         "children" : [ {
           "name" : "test_ParameterlessAdjustment[Data19]",
-          "uid" : "fbcd4d0f334b628d",
+          "uid" : "a3d5ee34945e7a2c",
           "parentUid" : "3ef34c16b054e4540db4019766317039",
           "status" : "passed",
           "time" : {
-            "start" : 1639535503617,
-            "stop" : 1639535505558,
-            "duration" : 1941
+            "start" : 1643010032251,
+            "stop" : 1643010033350,
+            "duration" : 1099
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_membertrainingGetRecord_01', 'case_model': '03-培训记录查询', 'case_name': '01-默认条件查询', 'priority': '', 'title': '默认查询', 'url': '/manageapi/membertraining/GetRecord', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"start_date\": \"2021-01-01\",\\n \"end_date\": \"2021-06-29\",\\n \"auth_type\": \"\",\\n \"direction\": \"desc\",\\n \"company_id\": \"8637000100\",\\n \"agency\": \"\",\\n \"course_id\": \"\",\\n \"date\": [\"2021-01-01\", \"2021-06-29\"],\\n \"kw_id_number\": \"\",\\n \"kw_name\": \"\",\\n \"order\": \"mt.created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"training_agency\": \"\",\\n \"training_type\": \"\",\\n \"training_year\": 2021,\\n \"level\": \"\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
         } ],
         "uid" : "3ef34c16b054e4540db4019766317039"
-      }, {
-        "name" : "02-姓名条件查询-\n-姓名查询",
-        "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data20]",
-          "uid" : "9198ecb87334aa28",
-          "parentUid" : "962d2d5948529fe7bdf9bbd97e3c63e4",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639535505563,
-            "stop" : 1639535506686,
-            "duration" : 1123
-          },
-          "flaky" : false,
-          "parameters" : [ "{'case_id': 'test_membertrainingGetRecord_02', 'case_model': '03-培训记录查询', 'case_name': '02-姓名条件查询', 'priority': '', 'title': '姓名查询', 'url': '/manageapi/membertraining/GetRecord', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"start_date\": \"2021-01-01\",\\n \"end_date\": \"2021-06-29\",\\n \"auth_type\": \"\",\\n \"direction\": \"desc\",\\n \"company_id\": \"8637000100\",\\n \"agency\": \"\",\\n \"course_id\": \"\",\\n \"date\": [\"2021-01-01\", \"2021-06-29\"],\\n \"kw_id_number\": \"\",\\n \"kw_name\": \"邓辉\",\\n \"order\": \"mt.created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"training_agency\": \"\",\\n \"training_type\": \"\",\\n \"training_year\": 2021,\\n \"level\": \"\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n\"$.data.list[*].name\": \"邓辉\"\\n}', 'actual_result': '', 'remark': ''}" ]
-        } ],
-        "uid" : "962d2d5948529fe7bdf9bbd97e3c63e4"
-      }, {
-        "name" : "03-身份证条件查询-\n-身份证查询",
-        "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data21]",
-          "uid" : "5a065f7d9ceb7ba8",
-          "parentUid" : "1f0af9ff3a09ccc4d437a5eac35d18c2",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639535506690,
-            "stop" : 1639535507838,
-            "duration" : 1148
-          },
-          "flaky" : false,
-          "parameters" : [ "{'case_id': 'test_membertrainingGetRecord_03', 'case_model': '03-培训记录查询', 'case_name': '03-身份证条件查询', 'priority': '', 'title': '身份证查询', 'url': '/manageapi/membertraining/GetRecord', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"start_date\": \"2021-01-01\",\\n \"end_date\": \"2021-06-29\",\\n \"auth_type\": \"\",\\n \"direction\": \"desc\",\\n \"company_id\": \"8637000100\",\\n \"agency\": \"\",\\n \"course_id\": \"\",\\n \"date\": [\"2021-01-01\", \"2021-06-29\"],\\n \"kw_id_number\": \"431225199212061818\",\\n \"kw_name\": \"\",\\n \"order\": \"mt.training_year\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"training_agency\": \"\",\\n \"training_type\": \"\",\\n \"training_year\": 2021,\\n \"level\": \"\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n\"$.data.list[*].id_number\": \"431225199212061818\"\\n}', 'actual_result': '', 'remark': ''}" ]
-        } ],
-        "uid" : "1f0af9ff3a09ccc4d437a5eac35d18c2"
       } ],
       "uid" : "214c857e636b950822fbe64ab66ad30e"
     }, {
@@ -372,35 +340,19 @@
       "children" : [ {
         "name" : "01-查询查询-\n-01-默认条件查询",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data22]",
-          "uid" : "d0c732e725bd00a2",
+          "name" : "test_ParameterlessAdjustment[Data20]",
+          "uid" : "8717b9ea8c08e792",
           "parentUid" : "1f5c36d52f5dce3b5368e28ddac5cf11",
           "status" : "passed",
           "time" : {
-            "start" : 1639535507843,
-            "stop" : 1639535511502,
-            "duration" : 3659
+            "start" : 1643010033354,
+            "stop" : 1643010039840,
+            "duration" : 6486
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetRecordForStudy_01', 'case_model': '04-培训学分查询', 'case_name': '01-查询查询', 'priority': '', 'title': '01-默认条件查询', 'url': '/manageapi/membertraining/GetRecordForStudy', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"auth_type\": \"\",\\n \"company_id\": \"8637000000\",\\n \"agency\": \"\",\\n \"course_id\": \"\",\\n \"status\": \"\",\\n \"kw_id_number\": \"\",\\n \"kw_name\": \"\",\\n \"training_agency\": \"\",\\n \"training_type\": \"\",\\n \"training_year\": 2022,\\n \"pre_work\": \"\",\\n \"level\": \"\",\\n \"self\": \"0\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"count\": 111623,\\n \"order\": \"mt.created_time\",\\n \"direction\": \"desc\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
         } ],
         "uid" : "1f5c36d52f5dce3b5368e28ddac5cf11"
-      }, {
-        "name" : "01-查询查询-\n-02-所有条件查询",
-        "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data23]",
-          "uid" : "71de53fdab5dff6f",
-          "parentUid" : "f60e9a917178e8d66285d433f078e743",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639535511507,
-            "stop" : 1639535512255,
-            "duration" : 748
-          },
-          "flaky" : false,
-          "parameters" : [ "{'case_id': 'test_GetRecordForStudy_02', 'case_model': '04-培训学分查询', 'case_name': '01-查询查询', 'priority': '', 'title': '02-所有条件查询', 'url': '/manageapi/membertraining/GetRecordForStudy', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"auth_type\": \"\",\\n \"company_id\": \"8637000000\",\\n \"agency\": \"false\",\\n \"course_id\": \"5753\",\\n \"status\": \"\",\\n \"kw_id_number\": \"431225199212061818\",\\n \"kw_name\": \"邓辉\",\\n \"training_agency\": \"\",\\n \"training_type\": \"\",\\n \"training_year\": 2022,\\n \"pre_work\": \"\",\\n \"level\": \"\",\\n \"self\": \"0\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"count\": 69875,\\n \"order\": \"mt.created_time\",\\n \"direction\": \"desc\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n \"$.data.list[*].name\": \"邓辉\",\\n \"$.data.list[*].id_number\": \"431225199212061818\"\\n}', 'actual_result': '', 'remark': ''}" ]
-        } ],
-        "uid" : "f60e9a917178e8d66285d433f078e743"
       } ],
       "uid" : "62eeb58b6084daa95e2594397e47db86"
     }, {
@@ -408,14 +360,14 @@
       "children" : [ {
         "name" : "01-列表账号管理数据-\n-默认条件查询",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data24]",
-          "uid" : "c7fd6ee6b98f7b26",
+          "name" : "test_ParameterlessAdjustment[Data21]",
+          "uid" : "bf793a85a788c80e",
           "parentUid" : "76fac4e82ad27befd344c104313721de",
           "status" : "passed",
           "time" : {
-            "start" : 1639535512260,
-            "stop" : 1639535512472,
-            "duration" : 212
+            "start" : 1643010039846,
+            "stop" : 1643010040038,
+            "duration" : 192
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_adminuserList_01', 'case_model': '88-账号管理', 'case_name': '01-列表账号管理数据', 'priority': '中', 'title': '默认条件查询', 'url': '/base/adminuser/List', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"order\": \"created_time\",\\n \"direction\": \"desc\",\\n \"kw\": \"\",\\n \"Status\": \"\",\\n \"onLine\": \"\",\\n \"association\": \"\",\\n \"companyId\": \"8637000000\",\\n \"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -424,14 +376,14 @@
       }, {
         "name" : "01-列表账号管理数据-\n-01 全条件查询",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data25]",
-          "uid" : "de99d2517e2dd6c0",
+          "name" : "test_ParameterlessAdjustment[Data22]",
+          "uid" : "1bfa0d3eb34bd4d1",
           "parentUid" : "bad05ae7b2ad1d363bb76f9a2bc2a663",
           "status" : "passed",
           "time" : {
-            "start" : 1639535512477,
-            "stop" : 1639535512673,
-            "duration" : 196
+            "start" : 1643010040042,
+            "stop" : 1643010040169,
+            "duration" : 127
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_adminuserList_02', 'case_model': '88-账号管理', 'case_name': '01-列表账号管理数据', 'priority': '中', 'title': '01 全条件查询', 'url': '/base/adminuser/List', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"order\": \"created_time\",\\n \"direction\": \"desc\",\\n \"kw\": \"ZJXH003\",\\n \"Status\": \"A\",\\n \"onLine\": \"X\",\\n \"association\": 1,\\n \"companyId\": \"8637000000\",\\n \"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n \"$.data.list[*].name\": \"ZJXH003\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -440,14 +392,14 @@
       }, {
         "name" : "09-添加账号-\n-成功添加账号",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data26]",
-          "uid" : "7598fe061bc9de90",
+          "name" : "test_ParameterlessAdjustment[Data23]",
+          "uid" : "5dda5029ff2cabe6",
           "parentUid" : "941b459a6854991ff7f8b195f1140b01",
           "status" : "passed",
           "time" : {
-            "start" : 1639535512678,
-            "stop" : 1639535512844,
-            "duration" : 166
+            "start" : 1643010040172,
+            "stop" : 1643010040304,
+            "duration" : 132
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_adminuserAdd_01', 'case_model': '88-账号管理', 'case_name': '09-添加账号', 'priority': '中', 'title': '成功添加账号', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"nickName\": \"test001234\",\\n \"roles\": [41],\\n \"companyId\": \"8637200100\",\\n \"name\": \"test001234\",\\n \"email\": \"\",\\n \"phone\": \"\",\\n \"pwd\": \"630163aa552eb0f4198c75263ce9ac98\",\\n \"sex\": 0,\\n \"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -456,14 +408,14 @@
       }, {
         "name" : "09-添加账号-\n-重复名称添加",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data27]",
-          "uid" : "3bccfa6b61fe5d1b",
+          "name" : "test_ParameterlessAdjustment[Data24]",
+          "uid" : "fb1ba51544903df6",
           "parentUid" : "828e7d2c8b86f38bada7f8aef586218a",
           "status" : "passed",
           "time" : {
-            "start" : 1639535512849,
-            "stop" : 1639535512984,
-            "duration" : 135
+            "start" : 1643010040307,
+            "stop" : 1643010040408,
+            "duration" : 101
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_adminuserAdd_02', 'case_model': '88-账号管理', 'case_name': '09-添加账号', 'priority': '中', 'title': '重复名称添加', 'url': '/base/adminuser/Add', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\\n \"nickName\": \"SDSXH003\",\\n \"roles\": [41],\\n \"companyId\": \"8637200100\",\\n \"name\": \"SDSXH003\",\\n \"email\": \"\",\\n \"phone\": \"\",\\n \"pwd\": \"976378004cda89104f1557dda1a6b713\",\\n \"sex\": 0,\\n \"type\": \"I\"\\n}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 1,\\n \"$.msg\": \"用户已经存在\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -472,14 +424,14 @@
       }, {
         "name" : "10-删除账号-\n-多个账号删除",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data28]",
-          "uid" : "7a20ecc78dfe4a7c",
+          "name" : "test_ParameterlessAdjustment[Data25]",
+          "uid" : "da44185889c3a03d",
           "parentUid" : "2b450357a647951d0e6f56c40641c90a",
           "status" : "passed",
           "time" : {
-            "start" : 1639535512989,
-            "stop" : 1639535513310,
-            "duration" : 321
+            "start" : 1643010040412,
+            "stop" : 1643010040647,
+            "duration" : 235
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_adminuserAdd_03', 'case_model': '88-账号管理', 'case_name': '10-删除账号', 'priority': '中', 'title': '多个账号删除', 'url': '/base/adminuser/Delete', 'pre_exec': '', 'method': '', 'params_type': '{\"Cookie\":\"\"}', 'params': '{\"ids\":[]}', 'expect_result': 'ture', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -492,14 +444,14 @@
       "children" : [ {
         "name" : "01-默认条件查询-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data29]",
-          "uid" : "730be108d5a539e3",
+          "name" : "test_ParameterlessAdjustment[Data26]",
+          "uid" : "493bd36d1e33a164",
           "parentUid" : "9919729cd13cf8f1014b3801080e2305",
           "status" : "passed",
           "time" : {
-            "start" : 1639535513314,
-            "stop" : 1639535520577,
-            "duration" : 7263
+            "start" : 1643010040651,
+            "stop" : 1643010044147,
+            "duration" : 3496
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetStatisList_01', 'case_model': '05-培训记录统计', 'case_name': '01-默认条件查询', 'priority': '', 'title': '', 'url': '/manageapi/membertraining/GetStatisList', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"start_date\": \"\",\\n \"end_date\": \"\",\\n \"auth_type\": \"\",\\n \"by\": 1,\\n \"company_id\": \"8637000000\",\\n \"date\": \"\",\\n \"companytype\": \"\",\\n \"status\": \"\",\\n \"kw_id_number\": \"\",\\n \"kw_name\": \"\",\\n \"order\": \"total\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"training_agency\": \"L\",\\n \"training_type\": \"S\",\\n \"training_year\": 2022,\\n \"level\": \"\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -508,14 +460,14 @@
       }, {
         "name" : "02-培训方式：全部-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data30]",
-          "uid" : "7634bac766dd4c88",
+          "name" : "test_ParameterlessAdjustment[Data27]",
+          "uid" : "1110ba249dd9feb3",
           "parentUid" : "45120c3d4b39d81ca39bd9103ca55210",
           "status" : "passed",
           "time" : {
-            "start" : 1639535520582,
-            "stop" : 1639535528273,
-            "duration" : 7691
+            "start" : 1643010044151,
+            "stop" : 1643010047728,
+            "duration" : 3577
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetStatisList_02', 'case_model': '05-培训记录统计', 'case_name': '02-培训方式：全部', 'priority': '', 'title': '', 'url': '/manageapi/membertraining/GetStatisList', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"start_date\": \"\",\\n \"end_date\": \"\",\\n \"auth_type\": \"\",\\n \"by\": 1,\\n \"company_id\": \"8637000000\",\\n \"date\": \"\",\\n \"companytype\": \"\",\\n \"status\": \"\",\\n \"kw_id_number\": \"\",\\n \"kw_name\": \"\",\\n \"order\": \"total\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"training_agency\": \"\",\\n \"training_type\": \"\",\\n \"training_year\": 2022,\\n \"level\": \"\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -528,14 +480,14 @@
       "children" : [ {
         "name" : "01-默认查询条件-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data31]",
-          "uid" : "461921e5061977cc",
+          "name" : "test_ParameterlessAdjustment[Data28]",
+          "uid" : "5eaf802f1adcf871",
           "parentUid" : "4acbb31348ced955464d745821234583",
           "status" : "passed",
           "time" : {
-            "start" : 1639535528277,
-            "stop" : 1639535528531,
-            "duration" : 254
+            "start" : 1643010047730,
+            "stop" : 1643010047862,
+            "duration" : 132
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetLiziRecord_01', 'case_model': '06-第三方临时公司', 'case_name': '01-默认查询条件', 'priority': '', 'title': '', 'url': '/manageapi/membertraining/GetLiziRecord', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"start_date\": \"2021-01-01\",\\n \"end_date\": \"2021-12-14\",\\n \"auth_type\": \"\",\\n \"by\": 1,\\n \"company_id\": \"\",\\n \"agency\": \"\",\\n \"course_id\": \"\",\\n \"date\": [\"2021-01-01\", \"2021-12-14\"],\\n \"kw_id_number\": \"\",\\n \"kw_name\": \"\",\\n \"order\": \"mt.created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"training_agency\": \"\",\\n \"training_type\": \"\",\\n \"training_year\": 2022,\\n \"self\": \"0\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -548,14 +500,14 @@
       "children" : [ {
         "name" : "01-默认查询条件-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data32]",
-          "uid" : "57d79009175dc5a5",
+          "name" : "test_ParameterlessAdjustment[Data29]",
+          "uid" : "fbfa7f74b13a3ee5",
           "parentUid" : "512cf9d659deba82ab6033fa43d848fd",
           "status" : "passed",
           "time" : {
-            "start" : 1639535528536,
-            "stop" : 1639535528796,
-            "duration" : 260
+            "start" : 1643010047865,
+            "stop" : 1643010048070,
+            "duration" : 205
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetMemberTriningOffline_01', 'case_model': '07-培训档案管理', 'case_name': '01-默认查询条件', 'priority': '', 'title': '', 'url': '/manageapi/membertrainingoffline/GetMemberTriningOffline', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"direction\": \"desc\",\\n \"company_id\": \"8637000000\",\\n \"created_time\": [\"2021-01-01\", \"2021-12-14\"],\\n \"order\": \"created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"training_year\": 2022,\\n \"status\": \"P\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n  \"$.data.list[*].status\":\"P\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -568,14 +520,14 @@
       "children" : [ {
         "name" : "02-培训统计-tab-\n-01-默认条件查询",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data33]",
-          "uid" : "42e30e79b58a3df2",
+          "name" : "test_ParameterlessAdjustment[Data30]",
+          "uid" : "4617fec20b76ea58",
           "parentUid" : "4c0a0f285225191b4e6b3286cfd4dfff",
           "status" : "passed",
           "time" : {
-            "start" : 1639535528800,
-            "stop" : 1639535529099,
-            "duration" : 299
+            "start" : 1643010048073,
+            "stop" : 1643010052087,
+            "duration" : 4014
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetCompanyTestSum_01', 'case_model': '08-培训测评', 'case_name': '02-培训统计-tab', 'priority': '', 'title': '01-默认条件查询', 'url': '/manageapi/membertrainingtest/GetCompanyTestSum', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"year\": 2022,\\n \"companyId\": \"8637000000\",\\n \"companyName\": \"\",\\n \"companyType\": \"\",\\n \"testType\": \"\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"level\": \"\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -584,14 +536,14 @@
       }, {
         "name" : "02-培训统计-tab-\n-02-人员详情",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data34]",
-          "uid" : "2f2a1bfd1ee8fa67",
+          "name" : "test_ParameterlessAdjustment[Data31]",
+          "uid" : "a115f8a5af8bb08a",
           "parentUid" : "4446c568d1b42ceb8af6d2c8d1fabae7",
           "status" : "passed",
           "time" : {
-            "start" : 1639535529103,
-            "stop" : 1639535529590,
-            "duration" : 487
+            "start" : 1643010052090,
+            "stop" : 1643010056277,
+            "duration" : 4187
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_GetCompanyTestSum_02', 'case_model': '08-培训测评', 'case_name': '02-培训统计-tab', 'priority': '', 'title': '02-人员详情', 'url': '/manageapi/company/GetTreeCompanyById', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"id\": \"8637200302220\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -604,14 +556,14 @@
       "children" : [ {
         "name" : "01-默认查询条件-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data35]",
-          "uid" : "91d9c385e0230917",
+          "name" : "test_ParameterlessAdjustment[Data32]",
+          "uid" : "74142eaf73b12e17",
           "parentUid" : "2f45c24d942aa15b8188bae4c2d9b1f5",
           "status" : "passed",
           "time" : {
-            "start" : 1639535529596,
-            "stop" : 1639535530885,
-            "duration" : 1289
+            "start" : 1643010056281,
+            "stop" : 1643010056504,
+            "duration" : 223
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_companyimportauditGetList_01', 'case_model': '09-导入权限管理', 'case_name': '01-默认查询条件', 'priority': '', 'title': '', 'url': '/manageapi/companyimportaudit/GetList', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"companytype\": \"\",\\n \"year\": 2021,\\n \"name\": \"\",\\n \"order\": \"created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"direction\": \"desc\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -620,14 +572,14 @@
       }, {
         "name" : "02-全条件查询-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data36]",
-          "uid" : "4f6fd60a452404c8",
+          "name" : "test_ParameterlessAdjustment[Data33]",
+          "uid" : "5994d6e4d18191a0",
           "parentUid" : "fdd431e21cbe552b05a124544495452d",
           "status" : "passed",
           "time" : {
-            "start" : 1639535530890,
-            "stop" : 1639535531038,
-            "duration" : 148
+            "start" : 1643010056507,
+            "stop" : 1643010056637,
+            "duration" : 130
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_companyimportauditGetList_02', 'case_model': '09-导入权限管理', 'case_name': '02-全条件查询', 'priority': '', 'title': '', 'url': '/manageapi/companyimportaudit/GetList', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"companytype\": \"SX\",\\n \"year\": 2021,\\n \"name\": \"交银人寿保险有限公司山东省分公司\",\\n \"order\": \"created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"direction\": \"desc\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\",\\n\"$.data.list[*].companytype\":\"SX\",\\n\"$.data.list[*].name\":\"交银人寿保险有限公司山东省分公司\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -640,14 +592,14 @@
       "children" : [ {
         "name" : "01-默认条件查询机构-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data37]",
-          "uid" : "4dbbeebb3c05bc5a",
+          "name" : "test_ParameterlessAdjustment[Data34]",
+          "uid" : "388eba0266d2f430",
           "parentUid" : "1b6234707639056d8760ef9bd73387cd",
           "status" : "passed",
           "time" : {
-            "start" : 1639535531042,
-            "stop" : 1639535531508,
-            "duration" : 466
+            "start" : 1643010056640,
+            "stop" : 1643010057060,
+            "duration" : 420
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_companyGetList_01', 'case_model': '10-机构管理', 'case_name': '01-默认条件查询机构', 'priority': '', 'title': '', 'url': '/manageapi/company/GetList', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"association\": -1,\\n \"direction\": \"desc\",\\n \"company_id\": \"\",\\n \"companytype\": \"\",\\n \"district_code\": \"\",\\n \"kw\": \"\",\\n \"order\": \"created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"name\": \"\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -656,14 +608,14 @@
       }, {
         "name" : "02-默认条件查询公司类型-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data38]",
-          "uid" : "18b8f4f114d8eb03",
+          "name" : "test_ParameterlessAdjustment[Data35]",
+          "uid" : "c607142b5d7282ba",
           "parentUid" : "2d686456457c6d51282ba9c4087c1d6e",
           "status" : "passed",
           "time" : {
-            "start" : 1639535531512,
-            "stop" : 1639535531695,
-            "duration" : 183
+            "start" : 1643010057064,
+            "stop" : 1643010057170,
+            "duration" : 106
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_companyGetList_02', 'case_model': '10-机构管理', 'case_name': '02-默认条件查询公司类型', 'priority': '', 'title': '', 'url': '/manageapi/companycategory/GetList', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"by\": 1,\\n \"order\": \"created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"direction\": \"desc\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -676,14 +628,14 @@
       "children" : [ {
         "name" : "01-销售能力查询-\n-01-默认查询",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data39]",
-          "uid" : "ccb45121c3a4102d",
+          "name" : "test_ParameterlessAdjustment[Data36]",
+          "uid" : "a16b0da00a92ddd2",
           "parentUid" : "57560c7919ef176a94985d0218c1bc39",
           "status" : "passed",
           "time" : {
-            "start" : 1639535531700,
-            "stop" : 1639535542174,
-            "duration" : 10474
+            "start" : 1643010057173,
+            "stop" : 1643010058821,
+            "duration" : 1648
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_memberqualificationGetList_01', 'case_model': '11-销售能力', 'case_name': '01-销售能力查询', 'priority': '', 'title': '01-默认查询', 'url': '/manageapi/memberqualification/GetList', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"CompanyId\": \"8637000000\",\\n \"Name\": \"\",\\n \"AuthType\": \"\",\\n \"IdNumber\": \"\",\\n \"Level\": \"\",\\n \"Leapfrog\": \"\",\\n \"Export\": \"\",\\n \"State\": \"\",\\n \"Order\": \"mq.level_time\",\\n \"Direction\": \"desc\",\\n \"pageNum\": 1,\\n \"pageSize\": 20\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -692,14 +644,14 @@
       }, {
         "name" : "02-销售能力统计-\n-01-默认查询",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data40]",
-          "uid" : "9bed52cab68e723f",
+          "name" : "test_ParameterlessAdjustment[Data37]",
+          "uid" : "ce735f9d9cd0683c",
           "parentUid" : "b48817a02f462e9f7dd4a5763663cf4d",
           "status" : "passed",
           "time" : {
-            "start" : 1639535542179,
-            "stop" : 1639535606073,
-            "duration" : 63894
+            "start" : 1643010058825,
+            "stop" : 1643010099959,
+            "duration" : 41134
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_memberqualificationGetList_02', 'case_model': '11-销售能力', 'case_name': '02-销售能力统计', 'priority': '', 'title': '01-默认查询', 'url': '/manageapi/memberqualification/GetStatistical', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"instid\": \"8637000000\",\\n \"type\": 0,\\n \"date\": \"\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -712,14 +664,14 @@
       "children" : [ {
         "name" : "01-题库管理-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data41]",
-          "uid" : "54ac3d850d643f3a",
+          "name" : "test_ParameterlessAdjustment[Data38]",
+          "uid" : "29bce286430f9f4c",
           "parentUid" : "638b40b9e7ac68f1da32cc3124619af8",
           "status" : "passed",
           "time" : {
-            "start" : 1639535606078,
-            "stop" : 1639535606327,
-            "duration" : 249
+            "start" : 1643010099966,
+            "stop" : 1643010100189,
+            "duration" : 223
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_testservice_01', 'case_model': '12-测评模块', 'case_name': '01-题库管理', 'priority': '', 'title': '', 'url': '/testservice/questionbank/getlist', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"kw\": \"\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"Direction\": \"desc\",\\n \"order\": \"created_time\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -728,14 +680,14 @@
       }, {
         "name" : "02-试卷模板-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data42]",
-          "uid" : "1fe267805f717d20",
+          "name" : "test_ParameterlessAdjustment[Data39]",
+          "uid" : "66dddac2091a7c7e",
           "parentUid" : "07d258500c93438546a79a1bf24638ae",
           "status" : "passed",
           "time" : {
-            "start" : 1639535606331,
-            "stop" : 1639535606510,
-            "duration" : 179
+            "start" : 1643010100192,
+            "stop" : 1643010100317,
+            "duration" : 125
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_testservice_02', 'case_model': '12-测评模块', 'case_name': '02-试卷模板', 'priority': '', 'title': '', 'url': '/testservice/papertemplate/getlist', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"kw\": \"\",\\n \"Direction\": \"desc\",\\n \"order\": \"created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -744,14 +696,14 @@
       }, {
         "name" : "03-试卷管理-\n-",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data43]",
-          "uid" : "a213ec5b3d93f664",
+          "name" : "test_ParameterlessAdjustment[Data40]",
+          "uid" : "aba253ddfcbcc17f",
           "parentUid" : "ab11e903753358375fa2c58d8ebd709e",
           "status" : "passed",
           "time" : {
-            "start" : 1639535606515,
-            "stop" : 1639535606699,
-            "duration" : 184
+            "start" : 1643010100320,
+            "stop" : 1643010100464,
+            "duration" : 144
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_testservice_03', 'case_model': '12-测评模块', 'case_name': '03-试卷管理', 'priority': '', 'title': '', 'url': '/testservice/paper/getlist', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"name\": \"\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"status\": \"\",\\n \"order\": \"create_time\",\\n \"by\": 1\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -764,14 +716,14 @@
       "children" : [ {
         "name" : "01-导入培训记录-\n-01-导入-待审核",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data44]",
-          "uid" : "cc81892845ea01fd",
+          "name" : "test_ParameterlessAdjustment[Data41]",
+          "uid" : "c0925cbb4f34e78a",
           "parentUid" : "75cfddc37a2bae4f1b69ecd129b41ce8",
           "status" : "passed",
           "time" : {
-            "start" : 1639535606704,
-            "stop" : 1639535607793,
-            "duration" : 1089
+            "start" : 1643010100467,
+            "stop" : 1643010100884,
+            "duration" : 417
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_ImportMemberTraining_01', 'case_model': '99-逻辑操作', 'case_name': '01-导入培训记录', 'priority': '', 'title': '01-导入-待审核', 'url': '/manageapi/membertraining/ImportMemberTraining', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"class_name\": \"自动审核数据\",\\n \"class_date_begin\": \"\",\\n \"class_date_end\": \"\",\\n \"class_teacher\": \"邓辉\",\\n \"class_site\": \"深圳南山\",\\n \"class_course_name\": \"自动化测试课程\",\\n \"textbook\": \"\",\\n \"signin_sheet\": \"\",\\n \"test_paper\": \"\",\\n \"site_photos\": \"\",\\n \"transcrip\": \"\",\\n \"frames\": \"[]\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -780,14 +732,14 @@
       }, {
         "name" : "01-导入培训记录-\n-02-获取审核的id",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data45]",
-          "uid" : "f793d181285ff7aa",
+          "name" : "test_ParameterlessAdjustment[Data42]",
+          "uid" : "c206600942dcc9c5",
           "parentUid" : "0afa860a90305d3996249b04825c8a53",
           "status" : "passed",
           "time" : {
-            "start" : 1639535607798,
-            "stop" : 1639535607979,
-            "duration" : 181
+            "start" : 1643010100887,
+            "stop" : 1643010101057,
+            "duration" : 170
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_ImportMemberTraining_02', 'case_model': '99-逻辑操作', 'case_name': '01-导入培训记录', 'priority': '', 'title': '02-获取审核的id', 'url': '/manageapi/membertrainingoffline/GetMemberTriningOffline', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"direction\": \"desc\",\\n \"company_id\": \"8637000000\",\\n \"created_time\": [\"2021-01-01\", \"2021-12-12\"],\\n \"order\": \"created_time\",\\n \"pageNum\": 1,\\n \"pageSize\": 20,\\n \"training_year\": 2021,\\n \"status\": \"P\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"请求成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
@@ -796,51 +748,19 @@
       }, {
         "name" : "01-导入培训记录-\n-03-协会公司审核",
         "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data46]",
-          "uid" : "e7f41353fc89ffb4",
+          "name" : "test_ParameterlessAdjustment[Data43]",
+          "uid" : "1e6369b73c6f0f21",
           "parentUid" : "39b70741142011a58046ee0b82d53a94",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1639535607984,
-            "stop" : 1639535609053,
-            "duration" : 1069
+            "start" : 1643010101061,
+            "stop" : 1643010102448,
+            "duration" : 1387
           },
           "flaky" : false,
           "parameters" : [ "{'case_id': 'test_ImportMemberTraining_03', 'case_model': '99-逻辑操作', 'case_name': '01-导入培训记录', 'priority': '', 'title': '03-协会公司审核', 'url': '/manageapi/membertraining/StatusOffline', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"ids\": [],\\n \"status\": \"A\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
         } ],
         "uid" : "39b70741142011a58046ee0b82d53a94"
-      }, {
-        "name" : "02-培训计划报送-\n-01-保存",
-        "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data47]",
-          "uid" : "384a043d10e8f69",
-          "parentUid" : "4f01cd179b2e2f32dd63d5a1f5ecd21b",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639535609058,
-            "stop" : 1639535609360,
-            "duration" : 302
-          },
-          "flaky" : false,
-          "parameters" : [ "{'case_id': 'test_SavePlanEx_01', 'case_model': '99-逻辑操作', 'case_name': '02-培训计划报送', 'priority': '', 'title': '01-保存', 'url': '/manageapi/membertrainingplan/SavePlanEx', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '[{\\n \"name\": \"济南市\",\\n \"id\": 51,\\n \"companyId\": \"8637000200\",\\n \"districtCode\": \"863701\",\\n \"planYear\": 2022,\\n \"title\": \"保险销售从业人员分类执业培训年度计划报送表\",\\n \"trainingType\": \"S\",\\n \"trainingCompanyType\": \"L\",\\n \"stockNumber\": 1,\\n \"incrNumber\": 0,\\n \"quarter1Number\": 1,\\n \"quarter2Number\": 0,\\n \"quarter3Number\": 0,\\n \"quarter4Number\": 0,\\n \"c1Incr\": 0,\\n \"c1Stock\": 1,\\n \"c2Incr\": 0,\\n \"c2Stock\": 0,\\n \"c3Incr\": 0,\\n \"c3Stock\": 0,\\n \"c4Incr\": 0,\\n \"c4Stock\": 0,\\n \"c5Incr\": 0,\\n \"c5Stock\": 0,\\n \"c6Incr\": 0,\\n \"c6Stock\": 0,\\n \"c7Incr\": 0,\\n \"c7Stock\": 0,\\n \"c8Incr\": 0,\\n \"c8Stock\": 0,\\n \"c9Incr\": 0,\\n \"c9Stock\": 0,\\n \"c10Incr\": 0,\\n \"c10Stock\": 0,\\n \"remark\": \"测试数据\",\\n \"status\": \"S\",\\n \"createdUser\": 35611,\\n \"createdTime\": \"2021-10-20 22:01:41\",\\n \"updatedUser\": 35611,\\n \"updatedTime\": \"2021-10-20 22:02:39\",\\n \"indexNum\": 1,\\n \"disabled\": false\\n}]', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
-        } ],
-        "uid" : "4f01cd179b2e2f32dd63d5a1f5ecd21b"
-      }, {
-        "name" : "02-培训计划报送-\n-",
-        "children" : [ {
-          "name" : "test_ParameterlessAdjustment[Data48]",
-          "uid" : "25ab040e8fc6a98a",
-          "parentUid" : "73ab10b186eb0333f51e3dc55aace7d7",
-          "status" : "passed",
-          "time" : {
-            "start" : 1639535609364,
-            "stop" : 1639535609506,
-            "duration" : 142
-          },
-          "flaky" : false,
-          "parameters" : [ "{'case_id': 'test_SavePlanEx_02', 'case_model': '99-逻辑操作', 'case_name': '02-培训计划报送', 'priority': '', 'title': '', 'url': '/manageapi/membertrainingplan/SavePlanEx', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '[{\\n \"name\": \"济南市\",\\n \"id\": 51,\\n \"companyId\": \"8637000200\",\\n \"districtCode\": \"863701\",\\n \"planYear\": 2022,\\n \"title\": \"保险销售从业人员分类执业培训年度计划报送表\",\\n \"trainingType\": \"S\",\\n \"trainingCompanyType\": \"L\",\\n \"stockNumber\": 1,\\n \"incrNumber\": 0,\\n \"quarter1Number\": 1,\\n \"quarter2Number\": 0,\\n \"quarter3Number\": 0,\\n \"quarter4Number\": 0,\\n \"c1Incr\": 0,\\n \"c1Stock\": 1,\\n \"c2Incr\": 0,\\n \"c2Stock\": 0,\\n \"c3Incr\": 0,\\n \"c3Stock\": 0,\\n \"c4Incr\": 0,\\n \"c4Stock\": 0,\\n \"c5Incr\": 0,\\n \"c5Stock\": 0,\\n \"c6Incr\": 0,\\n \"c6Stock\": 0,\\n \"c7Incr\": 0,\\n \"c7Stock\": 0,\\n \"c8Incr\": 0,\\n \"c8Stock\": 0,\\n \"c9Incr\": 0,\\n \"c9Stock\": 0,\\n \"c10Incr\": 0,\\n \"c10Stock\": 0,\\n \"remark\": \"测试数据\",\\n \"status\": \"A\",\\n \"createdUser\": 35611,\\n \"createdTime\": \"2021-10-20 22:01:41\",\\n \"updatedUser\": 35612,\\n \"updatedTime\": \"2021-12-14 17:41:14\",\\n \"indexNum\": 1,\\n \"disabled\": false\\n}]', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
-        } ],
-        "uid" : "73ab10b186eb0333f51e3dc55aace7d7"
       } ],
       "uid" : "154561aef6fffd39aba1635f5e1decdf"
     } ],
