@@ -31,5 +31,4 @@ data ={
 	}
 }
 
-
-print(jsonpath.jsonpath(data,"$.store.book.price[?(@.price<10)]")) #按步长取，到第1个和第3本书的titile
+print(jsonpath.jsonpath(data,"$.store.bicycle.price.[(>20)")) #到第1个和第3本书的titile

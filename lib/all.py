@@ -61,7 +61,7 @@ class all:
                 if key == "end_date" :
                     self.data[key] = "{}".format(date_YmdHMS(4))
                 if key == "date" or key == "created_time":
-                    if "test_GetTrendChart_01"  in self.inData["case_id"] \
+                    if "test_GetTrendChart"  in self.inData["case_id"] \
                             or "test_GetStatisList"  in self.inData["case_id"]\
                             or "test_memberqualificationGetList_02"  in self.inData["case_id"]:
                         pass
@@ -94,8 +94,7 @@ class all:
 
 
         #区分是否上传文件；请求
-        if "case_GetTestDetail_04" in self.inData["case_id"]\
-                or "test_ImportMemberTraining_01" in self.inData["case_id"]:
+        if "case_GetTestDetail_04" in self.inData["case_id"]or "test_ImportMemberTraining_01" in self.inData["case_id"]:
             body = requests.post(url=self.new_url, headers=self.header, data=self.data,files=request_file)
         else:
             body = requests.post(url=self.new_url, headers=self.header, json=self.data)
@@ -114,7 +113,3 @@ class all:
             print(self.conftest)
         inData = update_data(self.inData,self.data,self.new_url,self.header,body.json(),json.loads(self.inData["response_expect_result"]),self.conftest)
         return inData,body
-
-
-
-

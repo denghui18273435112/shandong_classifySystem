@@ -3,6 +3,7 @@ from tools.ExcelData import ExcelData
 import allure
 from tools.caseCheck import caseCheck
 from lib.all import all
+import requests
 
 def setup_module():
     allure.attach(body="TEST-01", name="所有用例执行前，执行一次", attachment_type=allure.attachment_type.TEXT)
@@ -45,7 +46,6 @@ def teardown_module():
         url3 = "http://60.216.62.188:10263/api/home/TrainingClear"
         data3= {"ids":[x]}
         header3 = {"Cookie":token}
-        print(x)
         body3 = requests.post(url=url3,json=data3,headers=header3)
         body3.json()
 
@@ -53,10 +53,8 @@ def teardown_module():
 @allure.epic("山东分类系统")
 class Test_all(object):
 
-    @pytest.mark.parametrize("Data",ExcelData("test"))
-    def test_ParameterlessAdjustment(self,token_1,token_2,token_3,company_id_1,company_id_2,company_id_3,Data,
-                                     year):
+    @pytest.mark.parametrize("Data",ExcelData("test_GetDetailList"))
+    def test_ParameterlessAdjustment(self,token_1,token_2,token_3,company_id_1,company_id_2,company_id_3,Data,year):
         """所有测试用例集合"""
-        res =all(token_1=token_1,token_2=token_2,token_3=token_3,company_id_1=company_id_1,company_id_2=company_id_2,company_id_3=company_id_3,inData=Data).\
-            ParameterlessAdjustment(year=year)
+        res =all(token_1=token_1,token_2=token_2,token_3=token_3,company_id_1=company_id_1,company_id_2=company_id_2,company_id_3=company_id_3,inData=Data).ParameterlessAdjustment(year=year)
         caseCheck().case_Check(res[0])

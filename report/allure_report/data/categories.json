@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "NameError: name 'requests' is not defined",
-      "children" : [ {
-        "name" : "test_ParameterlessAdjustment[Data43]",
-        "uid" : "1e6369b73c6f0f21",
-        "parentUid" : "cd419cf0a5061a219f013d6df1966de6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1643010101061,
-          "stop" : 1643010102448,
-          "duration" : 1387
-        },
-        "flaky" : false,
-        "parameters" : [ "{'case_id': 'test_ImportMemberTraining_03', 'case_model': '99-逻辑操作', 'case_name': '01-导入培训记录', 'priority': '', 'title': '03-协会公司审核', 'url': '/manageapi/membertraining/StatusOffline', 'pre_exec': '', 'method': '', 'params_type': '', 'params': '{\\n \"ids\": [],\\n \"status\": \"A\"\\n}', 'expect_result': '', 'response_expect_result': '{\\n \"$.code\": 0,\\n \"$.msg\": \"成功\"\\n}', 'actual_result': '', 'remark': ''}" ]
-      } ],
-      "uid" : "cd419cf0a5061a219f013d6df1966de6"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }
